@@ -7,4 +7,7 @@ tags:
   - hello
 ---
 
-This is a first post to mark the start of my new site.
+This is a first post to mark the start of my new site. This site is generated
+with my (spaghetti code of a) [homebrew static site generator].
+
+[homebrew static site generator]: https://github.com/dysthesis/ssg
