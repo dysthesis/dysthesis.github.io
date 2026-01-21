@@ -32,6 +32,7 @@
             runHook preInstall
             mkdir -p $out
             cp -r public/* $out/
+            cp -r ${./fonts} $out/fonts
             runHook postInstall
           '';
         };
