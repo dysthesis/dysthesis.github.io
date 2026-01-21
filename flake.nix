@@ -33,6 +33,7 @@
             mkdir -p $out
             cp -r public/* $out/
             cp -r ${./fonts} $out/fonts
+            cp -r ${./assets} $out/assets
             runHook postInstall
           '';
         };
