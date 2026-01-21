@@ -1,6 +1,6 @@
 @font-face{
   font-family: Literata;
-  src: url("/fonts/Literata-Regular.woff2") format("woff2");
+  src: url("/fonts/Literata-Regular.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face{
   font-family: Literata;
-  src: url("/fonts/Literata-Italic.woff2") format("woff2");
+  src: url("/fonts/Literata-Italic.ttf") format("ttf");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
