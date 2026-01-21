@@ -16,4 +16,13 @@ $$
 \int^x_0 y\; dy,
 $$
 
+This is a test code block to render
+
+```hs
+class Monad m where
+  (>>=)  :: m a -> (  a -> m b) -> m b
+  (>>)   :: m a ->  m b         -> m b
+  return ::   a                 -> m a
+```
+
 [homebrew static site generator]: https://github.com/dysthesis/ssg
