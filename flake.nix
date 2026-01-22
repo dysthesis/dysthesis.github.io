@@ -16,6 +16,7 @@
             deadnix
             nixd
             alejandra
+            inputs'.ssg.packages.default
           ];
         };
         packages.default = pkgs.stdenvNoCC.mkDerivation {
