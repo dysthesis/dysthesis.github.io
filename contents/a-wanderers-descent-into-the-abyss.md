@@ -173,6 +173,12 @@ planning involves the _application_, or _specialisation_, of our ideas, our
 review involves the _abstraction_ of our results and methods into generalisable
 ideas.
 
+Hence, we hereby seek to solve the problem: _What makes a good note-taking 
+system, and how does one implement it?_ The remainder of this article will 
+involve the first two steps of problem-solving: we will examine the stated 
+problem, and devise a plan to solve it. Later articles (once the code have been
+written) will cover the latter two, namely the execution and review steps.
+
 # A Man Cannot Step into the Same River Twice...
 
 ...or can they?
