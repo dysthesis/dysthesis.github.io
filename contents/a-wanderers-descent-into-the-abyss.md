@@ -193,6 +193,11 @@ a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t s$.
 
 # The Abyss Must First Be Measured
 
+> "Beware that, when fighting monsters, you yourself do not become a monster.
+> For when you gaze long into the abyss, the abyss gazes also into you."
+>
+> <footer>Friedrich Nietzsche, <em>Beyond Good and Evil.</em></footer>
+
 I am of the opinion that there are two, otherwise equally correct approaches to 
 the specification of a system: whether top-down, _i.e._ from a purely logical
 view, going down the layers of abstraction to a desired level, or bottom-up,
