@@ -290,6 +290,10 @@ inscriptions, it is bytes, and instead of sheets of papers, it is CPU caches,
 RAM, or hard drives. But then, how does this hold up to the logical abstractions
 built upon it?
 
+<!-- We may want to go through with proving that this problem has an optimal
+substructure: if \Sigma, \mathbb{A}, \oplus, and \rho are optimal, then S is
+optimal. -->
+
 [purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
 [^8]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
 [^9]: As an aside, the separation of mechanism and policy is a [core principle
