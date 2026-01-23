@@ -113,6 +113,66 @@ living before acquiring the habit of thinking.[^5]
 [Obsidian]: https://obsidian.md
 [^5]: Albert Camus, _The Myth of Sisyphus_.
 
+# A Problem Well-Stated Is a Problem Half-Solved
+
+![_Melencolia I_ by Albrecht Dürer, 1514](../assets/img/melencolia_i_albrecht_durer.jpg)
+
+> "It is foolish to answer a question you do not understand."
+>
+> -- George Pólya, _How to Solve It._
+
+In his book, _How to Solve It_, Pólya argued that there are four steps to solve
+a problem. One must first understand the parameters to the given problem, namely
+
+- what are the unknown,
+- what are the data,
+- what conditions must we maintain, and
+- is it possible to satisfy these conditions.
+
+Only then can we seek for a plan, which we do by seeking for _ideas_. Every idea
+transmutes the state or formulation of the problem, and thus we wish to find 
+some conjuration of ideas which transmutes our initial problem to the desired,
+solved state.
+
+A well-formulated plan is for naught if left unattempted -- an obvious next step.
+Here, Pólya emphasised the verification of each step: one may see that the step
+is correct, but can they also _prove_ so? Proving can be done in one of two ways,
+either
+
+- _intuitively_, by examining each atom of the step in question  until any doubt 
+  of its correctness has been cleared, or
+- _formally_, by deriving a chain of argument from a set of formal rules and 
+  axioms.
+
+With regards to this, a personal remark would be on what we should do in the
+event of realising that our step is incorrect. A proof of incorrectness is just
+a formulation of another, auxiliary problem: given the original problem, our 
+progress on solving it, and our incorrect step, along with the proof of its 
+incorrectness, what change should be made to the incorrect step, or even the 
+_plan as a whole_, to render it correct? Once this auxiliary problem is solved,
+we may resume with the execution of the now-revised plan.
+
+Finally, one must review the problem alongside the newfound solution upon the
+successful completion of it, in order to reap the fruits of their efforts when
+the next problem arrives. Similar to how we verify each step during the 
+execution of the plan, we must now verify the result as a whole. One method with
+which Pólya suggested we do so is by attempting to derive the results in with a
+different manner:
+
+> "And as we prefer perception through two different senses, so we prefer 
+> conviction by two different proofs: _Can you derive the results differently?_
+> We prefer, of course, a short and intuitive argument to a long and heavy one:
+> _Can you see it at a glance?_"
+>
+> -- George Pólya, _How to Solve It._
+
+After verification, what is left to do is to ask oneself if the results or 
+methods from this problem for some other problem. This will become the _ideas_
+which we derive our plans for our next problem for. In other words, whereas
+planning involves the _application_, or _specialisation_, of our ideas, our
+review involves the _abstraction_ of our results and methods into generalisable
+ideas.
+
 # A Man Cannot Step into the Same River Twice...
 
 ...or can they?
