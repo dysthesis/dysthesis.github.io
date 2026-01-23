@@ -23,7 +23,7 @@ It is only fitting that my journey had led me to this point.
 The mind is designed to generate ideas rather than to store them. In my case, 
 this seems doubly true: information has long escaped my grasp with disconcerting 
 ease. I have therefore spent considerable time searching for a chalice of 
-remembrance, to capture what would otherwise be lost. Yet the perfectionist in 
+remembrance, to capture what would otherwise be lost. But the perfectionist in 
 me remains dissatisfied with the results to date.
 
 My childhood was spent -- as should that of any child's -- satisfied. Before me 
@@ -132,7 +132,7 @@ a problem. One must first understand the parameters to the given problem, namely
 Only then can we seek for a plan, which we do by seeking for _ideas_. Every idea
 transmutes the state or formulation of the problem, and thus we wish to find 
 some conjuration of ideas which transmutes our initial problem to the desired,
-solved state.
+solved state.[^6]
 
 A well-formulated plan is for naught if left unattempted -- an obvious next step.
 Here, Pólya emphasised the verification of each step: one may see that the step
@@ -171,13 +171,23 @@ methods from this problem for some other problem. This will become the _ideas_
 which we derive our plans for our next problem for. In other words, whereas
 planning involves the _application_, or _specialisation_, of our ideas, our
 review involves the _abstraction_ of our results and methods into generalisable
-ideas.
+ideas. [^7]
 
 Hence, we hereby seek to solve the problem: _What makes a good note-taking 
 system, and how does one implement it?_ The remainder of this article will 
 involve the first two steps of problem-solving: we will examine the stated 
 problem, and devise a plan to solve it. Later articles (once the code have been
 written) will cover the latter two, namely the execution and review steps.
+
+[^6]: One may notice parallels between this and machine-assisted theorem proving
+using languages such as [Isabelle](https://isabelle.in.tum.de/) or
+[Lean](https://lean-lang.org/), where a theorem is proven by assembling
+[_tactics_](https://leanprover.github.io/theorem_proving_in_lean/tactics.html),
+which are rules for rewriting the formulation of the problem from one state to
+another.
+[^7]: Likewise, this is analogous to the formulation of computation in 
+$\lambda$-calculus as a term defined by the inductive definition, consisting of 
+a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t s$.
 
 # A Man Cannot Step into the Same River Twice...
 
