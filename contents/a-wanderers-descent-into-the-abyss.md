@@ -86,7 +86,7 @@ of thought and focus](https://www.nngroup.com/articles/response-times-3-importan
 >
 > "I am part of that power which eternally wills evil and eternally works good."
 >
-> -- Johann Wolfgang von Goethe, Faust, First Part
+> -- Johann Wolfgang von Goethe, _Faust_, First Part
 
 Of course, it would only be honest to preface the following sections with the
 following disclaimer: that this endeavour is almost entirely the fruit of my own
