@@ -665,7 +665,7 @@ section > p.meta {
 }
 figure {
     /* 2rem top, 0 left/right, 4rem bottom */
-    margin: 2rem 0 4rem 0; 
+    margin:0 0 2rem 0; 
     text-align: center;
 }
 

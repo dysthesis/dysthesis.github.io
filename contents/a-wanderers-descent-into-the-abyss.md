@@ -193,8 +193,61 @@ a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t s$.
 
 # The Abyss Must First Be Measured
 
+I am of the opinion that there are two, otherwise equally correct approaches to 
+the specification of a system: whether top-down, _i.e._ from a purely logical
+view, going down the layers of abstraction to a desired level, or bottom-up,
+which is its inverse.
 
+Personally, I am more partial to the former, as the logical view is an arguably
+concrete, upper ceiling to the layeyrs of abstraction. The inverse may not be
+necessarily true; while by most definitions, assembly and binary would the the
+botoom floor of abtraction for control and data respectively, there are
+vanishingly few cases in which one would necessarily trouble themselves with
+such low-level implementation details. Thus, while one would always have to
+consider the logical implementation of a system, it is on a case-by-case basis
+which one wouldd decide what their floor of abstraction is.
+
+We will therefore begin with the logical definition of a note-taking system. The 
+goal here is to distil the definition down to [purely mechanism, without any
+policy].[^8] In other words, our definiton should be able to model any policy or
+system, _e.g._ Zettelkasten, Cornell, _etc._ Sparing all but the most fundamental 
+requirements, a note-taking system is a store of information, from which a user 
+can enter and retrieve information. 
+
+Here, Pólya suggests introducing suitable notation; one should find it adequate 
+to denote a note-taking system $S$ as a quadruple
+
+$$
+S = (\Sigma, \mathbb{A}, \oplus, \rho),
+$$
+
+where
+
+- $\Sigma$ is the state space of the store of information,
+- $\mathbb{A}$ is the space of the atoms of information, and
+- $\oplus$ and $\rho$ are functions which append and reduce, or query information 
+  from $\Sigma$ respectively; that is,
+
+$$
+\begin{align}
+  \oplus&: \Sigma \times \mathbb{A} \to \Sigma\\
+  \rho&: \Sigma \times \mathbb{A} \to \Sigma.
+\end{align}
+$$
+
+Here, a key difference in the invariants maintained between the input function 
+$\oplus$ and the reduction function $\rho$ is that
+
+- for $\oplus$, the output $\sigma'$ must be a strict superset of the input 
+  $\sigma$, and
+- for $\rho$, the output $\sigma'$ must be a strict subset of the input 
+  $\sigma$.
+
+[purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
+[^8]: As an aside, the separation of mechanism and policy is a [core principle
+in the architecture of microkernels](https://www.cs.vu.nl/~ast/books/mos2/).
 
 # A Man Cannot Step into the Same River Twice...
 
 ...or can they?
+
