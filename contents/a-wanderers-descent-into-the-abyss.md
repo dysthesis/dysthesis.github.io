@@ -189,6 +189,10 @@ another.
 $\lambda$-calculus as a term defined by the inductive definition, consisting of 
 a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t s$.
 
+# The Abyss Must First Be Measured
+
+
+
 # A Man Cannot Step into the Same River Twice...
 
 ...or can they?
