@@ -2,7 +2,7 @@
 title: "A Wanderer's Descent into the Abyss"
 subtitle: "Or, the Methods and Madness of the Cartography of Chaos"
 ctime: 2026-01-22
-mtime: 2026-01-22
+mtime: 2026-01-23
 tags:
   - crdt
   - database
@@ -16,7 +16,7 @@ tags:
 
 > "I am a cage, in search of a bird."
 >
-> -- Franz Kafka
+> <footer>Franz Kafka</footer>
 
 It is only fitting that my journey had led me to this point.
 
@@ -90,7 +90,7 @@ of thought and focus](https://www.nngroup.com/articles/response-times-3-importan
 >
 > "I am part of that power which eternally wills evil and eternally works good."
 >
-> -- Johann Wolfgang von Goethe, _Faust_, First Part
+> <footer>Johann Wolfgang von Goethe, <em>Faust</em>, First Part</footer>
 
 Of course, it would only be honest to preface the following sections with the
 following disclaimer: that this endeavour is almost entirely the fruit of my own
@@ -121,7 +121,7 @@ living before acquiring the habit of thinking.[^5]
 
 > "It is foolish to answer a question you do not understand."
 >
-> -- George Pólya, _How to Solve It._
+> <footer>George Pólya, <em>How to Solve It.</em></footer>
 
 In his book, _How to Solve It_, Pólya argued that there are four steps to solve
 a problem. One must first understand the parameters to the given problem, namely
@@ -147,12 +147,12 @@ either
   axioms.
 
 With regards to this, a personal remark would be on what we should do in the
-event of realising that our step is incorrect. A proof of incorrectness is just
+event of realising that our step is incorrect. A falsifying proof is just
 a formulation of another, auxiliary problem: given the original problem, our 
-progress on solving it, and our incorrect step, along with the proof of its 
-incorrectness, what change should be made to the incorrect step, or even the 
-_plan as a whole_, to render it correct? Once this auxiliary problem is solved,
-we may resume with the execution of the now-revised plan.
+progress on solving it, and our incorrect step, along with the falsifying proof, 
+what change should be made to the incorrect step, or even the _plan as a whole_, 
+to render it correct? Once this auxiliary problem is solved, we may resume with 
+the execution of the now-revised plan.
 
 Finally, one must review the problem alongside the newfound solution upon the
 successful completion of it, in order to reap the fruits of their efforts when
@@ -166,7 +166,7 @@ different manner:
 > We prefer, of course, a short and intuitive argument to a long and heavy one:
 > _Can you see it at a glance?_"
 >
-> -- George Pólya, _How to Solve It._
+> <footer>George Pólya, <em>How to Solve It.</em></footer>
 
 After verification, what is left to do is to ask oneself if the results or 
 methods from this problem for some other problem. This will become the _ideas_
