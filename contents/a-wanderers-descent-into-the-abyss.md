@@ -95,7 +95,19 @@ available in the market, and is nothing but trivial nitpicks that I can raise
 with a lot of them. If I were to be eternally bound to [Obsidian], I would not 
 be dissatisfied.
 
+![How Standards Proliferate -- xkcd #927](https://xkcd.com/927)
+
+Why then, one might ask, would I go through such lengths to make yet another
+system? Simply, because I can. By both endeavour and fortune, I have been 
+granted the knowledge and ability to write my own software; would it not be a
+waste not to put it to use? After all, the best works are not the children of
+profit, but passion.
+
+There is no further reason beyond that. After all, we get into the habit of 
+living before acquiring the habit of thinking.[^5]
+
 [Obsidian]: https://obsidian.md
+[^5]: Albert Camus, _The Myth of Sisyphus_.
 
 # A Man Cannot Step into the Same River Twice...
 
