@@ -24,12 +24,12 @@ ease. I have therefore spent considerable time searching for a chalice of
 remembrance, to capture what would otherwise be lost. Yet the perfectionist in 
 me remains dissatisfied with the results to date.
 
-My childhood was spent, as should that of any child's, satisfied. Before me sits
-a sheet of paper, and in my grasp lies a black pen. The venerable pen and paper
-remains peerless in the realm of flexibility -- nothing compares to it in its
-capacity to bend to the shape of the mind. Yet it was not merit that shackled my 
-hand to the pen and my gaze to the paper, but ignorant bliss. My concerns were 
-scant; the life of a mere child presented no heft to seek might.
+My childhood was spent -- as should that of any child's -- satisfied. Before me 
+sits a sheet of paper, and in my grasp lies a black pen. The venerable pen and 
+paper remains peerless in the realm of flexibility -- nothing compares to it in 
+its capacity to bend to the shape of the mind. Yet it was not merit that 
+shackled my hand to the pen and my gaze to the paper, but ignorant bliss. My 
+concerns were scant; the life of a mere child presented no heft to seek might.
 
 Alas, the fate of man is to be banished from Eden. A child does not remain a
 child forever.
