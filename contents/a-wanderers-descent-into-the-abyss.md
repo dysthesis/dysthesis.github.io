@@ -198,6 +198,13 @@ a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t s$.
 >
 > <footer>Friedrich Nietzsche, <em>Beyond Good and Evil.</em></footer>
 
+We begin with an examination of the problem itself. _What are the unknown?_ Why,
+it is a specification of what constitutes a _good_ note-taking system, of course.
+Then, _what are our data?_ Well... _nothing_. Everything must start from
+somewhere, I suppose. Let us do so, then, with the construction of an auxiliary 
+element[^8], then, in the form of the most fundamental definition of a 
+note-taking system.
+
 I am of the opinion that there are two, otherwise equally correct approaches to 
 the specification of a system: whether top-down, _i.e._ from a purely logical
 view, going down the layers of abstraction to a desired level, or bottom-up,
@@ -214,7 +221,7 @@ which one wouldd decide what their floor of abstraction is.
 
 We will therefore begin with the logical definition of a note-taking system. The 
 goal here is to distil the definition down to [purely mechanism, without any
-policy].[^8] In other words, our definiton should be able to model any policy or
+policy].[^9] In other words, our definiton should be able to model any policy or
 system, _e.g._ Zettelkasten, Cornell, _etc._ Sparing all but the most fundamental 
 requirements, a note-taking system is a store of information, from which a user 
 can enter and retrieve information. 
@@ -249,7 +256,8 @@ $\oplus$ and the reduction function $\rho$ is that
   $\sigma$.
 
 [purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
-[^8]: As an aside, the separation of mechanism and policy is a [core principle
+[^8]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
+[^9]: As an aside, the separation of mechanism and policy is a [core principle
 in the architecture of microkernels](https://www.cs.vu.nl/~ast/books/mos2/).
 
 # A Man Cannot Step into the Same River Twice...
