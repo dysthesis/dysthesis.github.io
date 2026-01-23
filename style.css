@@ -661,4 +661,24 @@ section > p.meta {
   inset: 0;
   width: 100%;
   height: 100%;
+
+}
+figure {
+    /* 2rem top, 0 left/right, 4rem bottom */
+    margin: 2rem 0 4rem 0; 
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    float: none; 
+    max-width: 100%;
+    margin-top: 1em;
+    font-size: 1em;
+    color: var(--text-light, #666);
+    font-style: italic;
 }
