@@ -255,6 +255,41 @@ $\oplus$ and the reduction function $\rho$ is that
 - for $\rho$, the output $\sigma'$ must be a strict subset of the input 
   $\sigma$.
 
+We may observe that there exists a necessary relation between $\Sigma$ and
+$\mathbb{A}$: since $\Sigma$ is a store of one or more $\mathbb{A}$, then it 
+must be some structure of $\mathbb{A}$. That is, $\Sigma$ must be defined with
+respect to $\mathbb{A}$.
+
+As this is our only construct so far, this will be one of our axioms. We must,
+therefore, rely on intuition to convince ourselves of its correctness. We may
+do so by drawing comparisons with existing systems and softwares. Let us begin
+with the most basic system, the pen and paper. In a pen-and-paper system, there
+exists two operations, namely
+
+- _writing_ to the paper with the pen, and
+- _reading_ the inscriptions on the paper with one's eyes.
+
+Therefore, we may map the paper to $\Sigma$ as a structure of inscriptions of
+ink, rendering the latter as our $\mathbb{A}$. Writing, as the addition of ink
+to the paper, can be mapped to a function taking the paper and inscription as
+inputs, and returning a paper with it inscribed -- a superset of the original
+sheet. It is therefore our $\oplus$.
+
+However, it may be less obvious how _reading_ maps to $\rho$. But it may become
+more apparent if we introduce a new sheet of paper as an auxiliary construct. On
+it is inscribed some instruction, say, "find the opening paragraph of Beowulf".
+One may therefore read said instruction, find the opening paragraph of Beowulf,
+and inscribe it verbatim on a new sheet of paper. Hence, one would have taken in
+a piece of paper (the text of Beowulf) and an inscription (the instructions to
+find its opening paragraph), and outputted another sheet of paper with the
+instructed content -- that it is a subset of the original text should be 
+apparent.
+
+Mapping this onto a digital system should also be straightforward: instead of
+inscriptions, it is bytes, and instead of sheets of papers, it is CPU caches,
+RAM, or hard drives. But then, how does this hold up to the logical abstractions
+built upon it?
+
 [purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
 [^8]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
 [^9]: As an aside, the separation of mechanism and policy is a [core principle
