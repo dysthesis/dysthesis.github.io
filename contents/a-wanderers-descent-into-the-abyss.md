@@ -12,6 +12,8 @@ tags:
 
 # The Road to Hell is Paved with Good Intentions 
 
+![_Christ's Descent into Hell_, by Follower of Hieronymus Bosch](../assets/img/christs-descent-into-hell.jpg)
+
 > "I am a cage, in search of a bird."
 >
 > -- Franz Kafka
@@ -82,6 +84,8 @@ of thought and focus](https://www.nngroup.com/articles/response-times-3-importan
 
 # One Must Imagine Sisyphus Happy
 
+![_Sisyphus_ by Titian, 1549](../assets/img/Punishment_sisyph.jpg)
+
 > "Who are you then?"
 >
 > "I am part of that power which eternally wills evil and eternally works good."
@@ -95,7 +99,7 @@ available in the market, and is nothing but trivial nitpicks that I can raise
 with a lot of them. If I were to be eternally bound to [Obsidian], I would not 
 be dissatisfied.
 
-![How Standards Proliferate -- xkcd #927](https://xkcd.com/927)
+![How Standards Proliferate -- xkcd #927](../assets/img/standards.png)
 
 Why then, one might ask, would I go through such lengths to make yet another
 system? Simply, because I can. By both endeavour and fortune, I have been 
