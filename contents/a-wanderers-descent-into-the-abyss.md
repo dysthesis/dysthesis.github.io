@@ -296,6 +296,8 @@ built upon it?
 substructure: if \Sigma, \Alpha, \oplus, and \rho are optimal, then S is
 optimal. -->
 
+# To Drink from the River Lethe
+
 One noticeable difference between content on paper and on the computer is the 
 ability to erase. If one makes a mistake, it is a mere keystroke away to delete
 it. How does this map to our system?
@@ -313,8 +315,8 @@ $$
 
 where $f$ is some function mapping the atom $\alpha$ to the correct expression
 for its deletion. Therefore, given some $S = (\sigma, \Alpha, \oplus, \rho)$ and
-$S' = (\sigma', \Alpha, \oplus, \rho)$ such that $S' = \text{del} \alpha S$, we
-have that $\alpha\in\sigma$ but $\alpha\not\in\sigma$.
+$S' = (\sigma', \Alpha, \oplus, \rho)$ such that $S' = \text{del}\; \alpha\; S$, 
+we have that $\alpha\in\sigma$ but $\alpha\not\in\sigma$.
 
 An astute reader may make two observations from the above, namely that
 
