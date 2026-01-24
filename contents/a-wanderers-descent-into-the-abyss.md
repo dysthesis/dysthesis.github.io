@@ -241,10 +241,10 @@ where
   from $\Sigma$ respectively; that is,
 
 $$
-\begin{align}
+\begin{align*}
   \oplus&: \Sigma \times \Alpha \to \Sigma\\
   \rho&: \Sigma \times \Alpha \to \Sigma.
-\end{align}
+\end{align*}
 $$
 
 A key difference in the invariants maintained between the input function 
