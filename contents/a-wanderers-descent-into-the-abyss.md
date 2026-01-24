@@ -84,7 +84,7 @@ of thought and focus](https://www.nngroup.com/articles/response-times-3-importan
 
 # One Must Imagine Sisyphus Happy
 
-![_Sisyphus_ by Titian, 1549](../assets/img/Punishment_sisyph.jpg)
+![_Sisyphus_ by Titian](../assets/img/Punishment_sisyph.jpg)
 
 > "Who are you then?"
 >
@@ -117,7 +117,7 @@ living before acquiring the habit of thinking.[^5]
 
 # A Problem Well-Stated Is a Problem Half-Solved
 
-![_Melencolia I_ by Albrecht Dürer, 1514](../assets/img/melencolia_i_albrecht_durer.jpg)
+![_Melencolia I_ by Albrecht Dürer](../assets/img/melencolia_i_albrecht_durer.jpg)
 
 > "It is foolish to answer a question you do not understand."
 >
@@ -297,6 +297,12 @@ substructure: if \Sigma, \Alpha, \oplus, and \rho are optimal, then S is
 optimal. -->
 
 # To Drink from the River Lethe
+
+![_The Waters of the Lethe by the Plains of Elysium_ by John Roddam Spencer Stanhope](../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880.jpg)
+> Fade far away, dissolve, and quite forget
+>        What thou among the leaves hast never known.
+>
+> <footer>John Keats, <em>Ode to a Nightingale</em></footer> 
 
 One noticeable difference between content on paper and on the computer is the 
 ability to erase. If one makes a mistake, it is a mere keystroke away to delete
