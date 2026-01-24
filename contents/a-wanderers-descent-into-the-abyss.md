@@ -193,6 +193,8 @@ a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t\; s
 
 # The Abyss Must First Be Measured
 
+![_The Ancient of Days,_ by William Blake](../assets/img/Europe_a_Prophecy_copy_K_plate_01.jpg)
+
 > "Beware that, when fighting monsters, you yourself do not become a monster.
 > For when you gaze long into the abyss, the abyss gazes also into you."
 >
