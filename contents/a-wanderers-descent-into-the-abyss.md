@@ -331,7 +331,7 @@ we will get to later.[^10]
 As such, we may also map deletion as
 
 $$
-\text{del} = \lambda \alpha S. (\oplus\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S.
+\text{del} = \lambda \alpha \;S. (\oplus\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S.
 $$
 
 The consequence of the above construct is that deletion is a reversible 
