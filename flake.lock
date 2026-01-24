@@ -353,11 +353,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1769149716,
-        "narHash": "sha256-E2sY93m7NVALadm2mkUObD4rwNREaWnQEPdmQXKlB3I=",
+        "lastModified": 1769219599,
+        "narHash": "sha256-3CYjOUOsIIsWx/htekW3X51iv99L5yI9QYnlS4bwD+I=",
         "owner": "dysthesis",
         "repo": "ssg",
-        "rev": "abad90c62bf3f8b37726fc5f3d36df283584f66a",
+        "rev": "f23d72e6e4ffa583709cc7175e87e341c9932eeb",
         "type": "github"
       },
       "original": {
