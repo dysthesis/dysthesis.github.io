@@ -300,6 +300,7 @@ optimal. -->
 
 ![_The Waters of the Lethe by the Plains of Elysium_ by John Roddam Spencer Stanhope](../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880.jpg)
 > Fade far away, dissolve, and quite forget
+>
 >        What thou among the leaves hast never known.
 >
 > <footer>John Keats, <em>Ode to a Nightingale</em></footer> 
