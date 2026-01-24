@@ -189,7 +189,7 @@ which are rules for rewriting the formulation of the problem from one state to
 another.
 [^7]: Likewise, this is analogous to the formulation of computation in 
 $\lambda$-calculus as a term defined by the inductive definition, consisting of 
-a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t s$.
+a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t\; s$.
 
 # The Abyss Must First Be Measured
 
@@ -230,24 +230,24 @@ Here, Pólya suggests introducing suitable notation; one should find it adequate
 to denote a note-taking system $S$ as a quadruple
 
 $$
-S = (\Sigma, \mathbb{A}, \oplus, \rho),
+S = (\Sigma, \Alpha, \oplus, \rho),
 $$
 
 where
 
 - $\Sigma$ is the state space of the store of information,
-- $\mathbb{A}$ is the space of the atoms of information, and
+- $\Alpha$ is the space of the atoms of information, and
 - $\oplus$ and $\rho$ are functions which append and reduce, or query information 
   from $\Sigma$ respectively; that is,
 
 $$
 \begin{align}
-  \oplus&: \Sigma \times \mathbb{A} \to \Sigma\\
-  \rho&: \Sigma \times \mathbb{A} \to \Sigma.
+  \oplus&: \Sigma \times \Alpha \to \Sigma\\
+  \rho&: \Sigma \times \Alpha \to \Sigma.
 \end{align}
 $$
 
-Here, a key difference in the invariants maintained between the input function 
+A key difference in the invariants maintained between the input function 
 $\oplus$ and the reduction function $\rho$ is that
 
 - for $\oplus$, the output $\sigma'$ must be a strict superset of the input 
@@ -255,10 +255,14 @@ $\oplus$ and the reduction function $\rho$ is that
 - for $\rho$, the output $\sigma'$ must be a strict subset of the input 
   $\sigma$.
 
+<!-- This may have some formalisation in term algebra:  -->
+<!-- https://en.wikipedia.org/wiki/Term_algebra -->
+
 We may observe that there exists a necessary relation between $\Sigma$ and
-$\mathbb{A}$: since $\Sigma$ is a store of one or more $\mathbb{A}$, then it 
-must be some structure of $\mathbb{A}$. That is, $\Sigma$ must be defined with
-respect to $\mathbb{A}$.
+$\Alpha$: since $\Sigma$ is a store of one or more $\Alpha$, then it 
+must be some structure of $\Alpha$. That is, $\Sigma$ must be defined with
+respect to $\Alpha$. It may be possible to formalise this as a term algebra,
+such that $\Sigma$ is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
 
 As this is our only construct so far, this will be one of our axioms. We must,
 therefore, rely on intuition to convince ourselves of its correctness. We may
@@ -270,7 +274,7 @@ exists two operations, namely
 - _reading_ the inscriptions on the paper with one's eyes.
 
 Therefore, we may map the paper to $\Sigma$ as a structure of inscriptions of
-ink, rendering the latter as our $\mathbb{A}$. Writing, as the addition of ink
+ink, rendering the latter as our $\Alpha$. Writing, as the addition of ink
 to the paper, can be mapped to a function taking the paper and inscription as
 inputs, and returning a paper with it inscribed -- a superset of the original
 sheet. It is therefore our $\oplus$.
@@ -291,13 +295,74 @@ RAM, or hard drives. But then, how does this hold up to the logical abstractions
 built upon it?
 
 <!-- We may want to go through with proving that this problem has an optimal
-substructure: if \Sigma, \mathbb{A}, \oplus, and \rho are optimal, then S is
+substructure: if \Sigma, \Alpha, \oplus, and \rho are optimal, then S is
 optimal. -->
+
+One noticeable difference between content on paper and on the computer is the 
+ability to erase. If one makes a mistake, it is a mere keystroke away to delete
+it. How does this map to our system?
+
+Interestingly, there are two viable mappings for erasure. Both are equally
+satisfactory with respect to the definition, but have significantly different
+implications. We may first notice the straightforward mapping to our $\rho$
+function, which, given some atom $\alpha \in \Alpha$, returns a strict subset
+$\sigma'$ of the original store $\sigma$. Deletion may therefore be defined as
+some function $\text{del}: \mathbb{S} \times \Alpha \to \mathbb{S}$, such that
+
+$$
+\text{del} = \lambda \alpha S. (\rho\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S,
+$$
+
+where $f$ is some function mapping the atom $\alpha$ to the correct expression
+for its deletion. Therefore, given some $S = (\sigma, \Alpha, \oplus, \rho)$ and
+$S' = (\sigma', \Alpha, \oplus, \rho)$ such that $S' = \text{del} \alpha S$, we
+have that $\alpha\in\sigma$ but $\alpha\not\in\sigma$.
+
+An astute reader may make two observations from the above, namely that
+
+- the deletion operation is expressible as an atom $\alpha \in \Alpha$, and
+- that $\text{del}$ above is irreversible and permanent.
+
+These observations may hint at the construction of an alternative mapping for
+deletion: _why not simply add the atom for the deletion operation into the store?_
+This is plausible given the right structural representation of $\Sigma$, which
+we will get to later.[^10]
+
+As such, we may also map deletion as
+
+$$
+\text{del} = \lambda \alpha S. (\oplus\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S.
+$$
+
+The consequence of the above construct is that deletion is a reversible 
+operation: one may insert another atom that deletes said deletion atom, or 
+reduce the store with $\rho$ to permanently remove said atom.
+
+To give shape to what would otherwise be a highly abstract notion, we may
+analogise 
+
+- the first construction of $\text{del}$ to the rewriting of sheet of notes on 
+  another sheet, _without_ the desired inscription, and
+- the second construction of $\text{del}$ to the crossing-out of some erroneous
+  section of text.[^11]
+
+Hence, we may have arrived at a satisfactory intuition on the correctness of our
+construct $S$, but there is another, profound consequence of it: the 
+expressibility of actions as atoms $\alpha\in\Alpha$ grants us the ability to
+store not just the space, but time. The second construction of $\text{del}$ is
+able to reverse any action at any given time. This is not to say that the first
+construction does not have its uses, however. As much as one would like to
+pretend that storage is infinite (and it might as well be, given the size of
+modern hard drives), we may eventually hit a storage limit and need to remove
+information _permanently_.
 
 [purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
 [^8]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
 [^9]: As an aside, the separation of mechanism and policy is a [core principle
 in the architecture of microkernels](https://www.cs.vu.nl/~ast/books/mos2/).
+[^10]: **Hint:** it's [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type).
+[^11]: I'm aware that this is not a perfect mapping: one cannot cross out the
+cross to undo it. Such is the restriction when it comes to a physical medium.
 
 # A Man Cannot Step into the Same River Twice...
 
