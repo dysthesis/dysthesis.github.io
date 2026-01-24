@@ -217,7 +217,7 @@ botoom floor of abtraction for control and data respectively, there are
 vanishingly few cases in which one would necessarily trouble themselves with
 such low-level implementation details. Thus, while one would always have to
 consider the logical implementation of a system, it is on a case-by-case basis
-which one wouldd decide what their floor of abstraction is.
+which one would decide what their floor of abstraction is.
 
 We will therefore begin with the logical definition of a note-taking system. The 
 goal here is to distil the definition down to [purely mechanism, without any
