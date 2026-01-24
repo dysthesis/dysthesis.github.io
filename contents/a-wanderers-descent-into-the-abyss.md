@@ -221,7 +221,7 @@ which one would decide what their floor of abstraction is.
 
 We will therefore begin with the logical definition of a note-taking system. The 
 goal here is to distil the definition down to [purely mechanism, without any
-policy].[^9] In other words, our definiton should be able to model any policy or
+policy].[^10] In other words, our definiton should be able to model any policy or
 system, _e.g._ Zettelkasten, Cornell, _etc._ Sparing all but the most fundamental 
 requirements, a note-taking system is a store of information, from which a user 
 can enter and retrieve information. 
@@ -261,9 +261,7 @@ $\oplus$ and the reduction function $\rho$ is that
 We may observe that there exists a necessary relation between $\Sigma$ and
 $\Alpha$: since $\Sigma$ is a store of one or more $\Alpha$, then it 
 must be some structure of $\Alpha$. That is, $\Sigma$ must be defined with
-respect to $\Alpha$. It may be possible to formalise this as a term algebra,
-such that $\Sigma$ is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
-
+respect to $\Alpha$.[^8]
 As this is our only construct so far, this will be one of our axioms. We must,
 therefore, rely on intuition to convince ourselves of its correctness. We may
 do so by drawing comparisons with existing systems and softwares. Let us begin
@@ -326,7 +324,7 @@ An astute reader may make two observations from the above, namely that
 These observations may hint at the construction of an alternative mapping for
 deletion: _why not simply add the atom for the deletion operation into the store?_
 This is plausible given the right structural representation of $\Sigma$, which
-we will get to later.[^10]
+we will get to later.[^11]
 
 As such, we may also map deletion as
 
@@ -344,7 +342,7 @@ analogise
 - the first construction of $\text{del}$ to the rewriting of sheet of notes on 
   another sheet, _without_ the desired inscription, and
 - the second construction of $\text{del}$ to the crossing-out of some erroneous
-  section of text.[^11]
+  section of text.[^12]
 
 Hence, we may have arrived at a satisfactory intuition on the correctness of our
 construct $S$, but there is another, profound consequence of it: the 
@@ -357,11 +355,13 @@ modern hard drives), we may eventually hit a storage limit and need to remove
 information _permanently_.
 
 [purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
-[^8]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
-[^9]: As an aside, the separation of mechanism and policy is a [core principle
+[^8]: It may be possible to formalise this as a term algebra, such that $\Sigma$
+is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
+[^9]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
+[^10]: As an aside, the separation of mechanism and policy is a [core principle
 in the architecture of microkernels](https://www.cs.vu.nl/~ast/books/mos2/).
-[^10]: **Hint:** it's [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type).
-[^11]: I'm aware that this is not a perfect mapping: one cannot cross out the
+[^11]: **Hint:** it's [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type).
+[^12]: I'm aware that this is not a perfect mapping: one cannot cross out the
 cross to undo it. Such is the restriction when it comes to a physical medium.
 
 # A Man Cannot Step into the Same River Twice...
