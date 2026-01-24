@@ -221,7 +221,7 @@ which one would decide what their floor of abstraction is.
 
 We will therefore begin with the logical definition of a note-taking system. The 
 goal here is to distil the definition down to [purely mechanism, without any
-policy].[^10] In other words, our definiton should be able to model any policy or
+policy].[^9] In other words, our definiton should be able to model any policy or
 system, _e.g._ Zettelkasten, Cornell, _etc._ Sparing all but the most fundamental 
 requirements, a note-taking system is a store of information, from which a user 
 can enter and retrieve information. 
@@ -324,7 +324,7 @@ An astute reader may make two observations from the above, namely that
 These observations may hint at the construction of an alternative mapping for
 deletion: _why not simply add the atom for the deletion operation into the store?_
 This is plausible given the right structural representation of $\Sigma$, which
-we will get to later.[^11]
+we will get to later.[^10]
 
 As such, we may also map deletion as
 
@@ -352,11 +352,14 @@ able to reverse any action at any given time. This is not to say that the first
 construction does not have its uses, however. As much as one would like to
 pretend that storage is infinite (and it might as well be, given the size of
 modern hard drives), we may eventually hit a storage limit and need to remove
-information _permanently_.
+information _permanently_. However, the second construction is preferable: we
+build systems to _remember_ in order to allow us to _forget_. In fact, we will
+take this to a further extreme in later sections of this article.
 
 [purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
 [^8]: It may be possible to formalise this as a term algebra, such that $\Sigma$
 is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
+
 [^9]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
 [^10]: As an aside, the separation of mechanism and policy is a [core principle
 in the architecture of microkernels](https://www.cs.vu.nl/~ast/books/mos2/).
