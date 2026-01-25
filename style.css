@@ -710,3 +710,45 @@ figcaption {
 .sidenote-cite::before {
   content: "— ";
 }
+
+hr.ornament {
+  border: 0;
+  height: 1px;
+  width: var(--main-col);
+  margin: 2.2rem 0;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--rule),
+    transparent
+  );
+
+  position: relative;
+}
+
+hr.ornament::after {
+  /* set per-divider via data-ornament, default to an asterism */
+  content: attr(data-ornament);
+  display: inline-block;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -55%);
+
+  padding: 0 0.9rem;
+  background: var(--bg);
+
+  color: var(--fg);
+  opacity: 0.85;
+
+  font-size: 1.25rem;
+  line-height: 1;
+
+  /* ensure a symbol font fallback if Literata lacks a glyph */
+  font-family: var(--font-serif), "Segoe UI Symbol", "Apple Symbols", serif;
+
+  /* optional: nicer spacing for multi-glyph ornaments */
+  letter-spacing: 0.25em;
+}

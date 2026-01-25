@@ -106,7 +106,7 @@ Why then, one might ask, would I go through such lengths to make yet another
 system? Simply, because I can. By both endeavour and fortune, I have been 
 granted the knowledge and ability to write my own software; would it not be a
 waste not to put it to use? After all, the best works are not the children of
-profit, but passion.
+profit, but passion. May this, then, be of such fruitfulness.
 
 There is no further reason beyond that. After all, we get into the habit of 
 living before acquiring the habit of thinking.[^5]
@@ -367,20 +367,41 @@ Hence, we may have arrived at a satisfactory intuition on the correctness of our
 construct $S$, but there is another, profound consequence of it: the 
 expressibility of actions as atoms $\alpha\in\Alpha$ grants us the ability to
 store not just the space, but time. The second construction of $\text{del}$ is
-able to reverse any action at any given time. 
+able to reverse any action at any given time.
 
-It is written in the _Aeneid_[^13] that the shades of the dead may only earn
-their reincarnation by drinking from the river Lethe, washing away their
-memories -- it is only through oblivion that one may be reborn.
+<hr class="ornament" data-ornament="⁂">
 
-<!-- This is not to say that the first -->
-<!-- construction does not have its uses, however. As much as one would like to -->
-<!-- pretend that storage is infinite (and it might as well be, given the size of -->
-<!-- modern hard drives), we may eventually hit a storage limit and need to remove -->
-<!-- information _permanently_. However, the second construction is preferable: we -->
-<!-- build systems to _remember_ in order to allow us to _forget_. In fact, we will -->
-<!-- take this to a further extreme in later sections of this article. -->
+It is written in the _Aeneid_[^13] that the weary shades of the dead may only 
+earn their reincarnation by drinking from the river Lethe, washing away their
+memories -- it is only through oblivion that one may be reborn. Oblivion, then,
+is the _conclusion_ of one life, and a presage to the _beginning_ of the next.
 
+It's an apt metaphor for what we seek to do. In a manner that I believe is not
+too dissimilar from a language model, the human mind is but a finite chalice.
+There is only so much that we can remember, and to be forced to remember our
+current endeavour is to be barred from proceeding to our next. _To be freed from 
+our endeavour, and to proceed to our next, we must be allowed to forget._ Yet to 
+release us from remembrance, another must carry that burden in our stead. 
+
+What we seek to build, therefore, is our river Lethe, washing our memories, 
+carrying it in its ebb and flow. We may then journey onwards, our burdens light, 
+and when the time is right, may we be granted another encounter with our parted 
+memories further down its stream, in a time when we need it the most.
+
+<hr class="ornament" data-ornament="⁂">
+
+With that said, it should be apparent the motivation for declaring the second
+construction of the deletion operation as a sensible default. It is
+_non-destructive:_ it is always reversible, and its traces fully recorded in the
+state of $S$. We will take this a step further and declare that
+**reversible actions should be the default.** We want our system to _remember._
+
+That is not to say that the second, _destructive_ construction does not have its
+place. Like the mind, the computer is of finite capacity -- _it, too, needs to
+forget_. Hence, **destructive, irreversible actions are to be judiciously used
+to cope with the limitations of the computer.** If our storage has reached its
+limits, then we must carefully choose what to let go. But this is ideally to be
+avoided, as what is let go cannot be retrieved again.
 
 [^11]: **Hint:** it's [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type).
 [^12]: I'm aware that this is not a perfect mapping: one cannot cross out the
