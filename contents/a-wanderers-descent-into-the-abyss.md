@@ -367,17 +367,77 @@ Hence, we may have arrived at a satisfactory intuition on the correctness of our
 construct $S$, but there is another, profound consequence of it: the 
 expressibility of actions as atoms $\alpha\in\Alpha$ grants us the ability to
 store not just the space, but time. The second construction of $\text{del}$ is
-able to reverse any action at any given time. This is not to say that the first
-construction does not have its uses, however. As much as one would like to
-pretend that storage is infinite (and it might as well be, given the size of
-modern hard drives), we may eventually hit a storage limit and need to remove
-information _permanently_. However, the second construction is preferable: we
-build systems to _remember_ in order to allow us to _forget_. In fact, we will
-take this to a further extreme in later sections of this article.
+able to reverse any action at any given time. 
+
+It is written in the _Aeneid_[^13] that the shades of the dead may only earn
+their reincarnation by drinking from the river Lethe, washing away their
+memories -- it is only through oblivion that one may be reborn.
+
+<!-- This is not to say that the first -->
+<!-- construction does not have its uses, however. As much as one would like to -->
+<!-- pretend that storage is infinite (and it might as well be, given the size of -->
+<!-- modern hard drives), we may eventually hit a storage limit and need to remove -->
+<!-- information _permanently_. However, the second construction is preferable: we -->
+<!-- build systems to _remember_ in order to allow us to _forget_. In fact, we will -->
+<!-- take this to a further extreme in later sections of this article. -->
+
 
 [^11]: **Hint:** it's [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type).
 [^12]: I'm aware that this is not a perfect mapping: one cannot cross out the
 cross to undo it. Such is the restriction when it comes to a physical medium.
+[^13]: <span class="sidenote-quote">
+    Now, in a secret vale, the Trojan sees
+    
+    A sep'rate grove, thro' which a gentle breeze
+    
+    Plays with a passing breath, and whispers thro' the trees;
+    
+    And, just before the confines of the wood,
+    
+    The gliding Lethe leads her silent flood.
+    
+    About the boughs an airy nation flew,
+    
+    Thick as the humming bees, that hunt the golden dew;
+    
+    In summer's heat on tops of lilies feed,
+    
+    And creep within their bells, to suck the balmy seed:
+    
+    The winged army roams the fields around;
+    
+    The rivers and the rocks remurmur to the sound.
+    
+    Aeneas wond'ring stood, then ask'd the cause
+    
+    Which to the stream the crowding people draws.
+    
+    Then thus the sire: “The souls that throng the flood
+    
+    Are those to whom, by fate, are other bodies ow'd:
+    
+    In Lethe's lake they long oblivion taste,
+    
+    Of future life secure, forgetful of the past.
+    
+    Long has my soul desir'd this time and place,
+    
+    To set before your sight your glorious race,
+    
+    That this presaging joy may fire your mind
+    
+    To seek the shores by destiny design'd.”—
+    
+    “O father, can it be, that souls sublime
+    
+    Return to visit our terrestrial clime,
+    
+    And that the gen'rous mind, releas'd by death,
+    
+    Can covet lazy limbs and mortal breath?”
+    </span>
+
+    <span class="sidenote-cite">Virgil, <em>Aeneid</em>, Book IV.</span>
 
 # A Man Cannot Step into the Same River Twice...
 
