@@ -108,8 +108,10 @@ granted the knowledge and ability to write my own software; would it not be a
 waste not to put it to use? After all, the best works are not the children of
 profit, but passion. May this, then, be of such fruitfulness.
 
-There is no further reason beyond that. After all, we get into the habit of 
-living before acquiring the habit of thinking.[^5]
+There is no further reason beyond that. After all, we get into the habit of
+living before acquiring the habit of thinking.[^5] Life is but a boulder which
+all must eternally push uphill. Happiness is choosing the most enjoyable boulder
+to push. _And with this endeavour, I am happy._
 
 [Obsidian]: https://obsidian.md
 [Emacs Org-mode]: https://orgmode.org/
