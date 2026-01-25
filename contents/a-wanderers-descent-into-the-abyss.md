@@ -319,7 +319,7 @@ $\sigma'$ of the original store $\sigma$. Deletion may therefore be defined as
 some function $\text{del}: \mathbb{S} \times \Alpha \to \mathbb{S}$, such that
 
 $$
-\text{del} = \lambda \alpha S. (\rho\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S,
+\text{del} = \lambda \alpha\; S. (\rho\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S,
 $$
 
 where $f$ is some function mapping the atom $\alpha$ to the correct expression
@@ -353,7 +353,7 @@ analogise
 - the first construction of $\text{del}$ to the rewriting of sheet of notes on 
   another sheet, _without_ the desired inscription, and
 - the second construction of $\text{del}$ to the crossing-out of some erroneous
-  section of text.[^12]
+  section of text.[^11]
 
 Hence, we may have arrived at a satisfactory intuition on the correctness of our
 construct $S$, but there is another, profound consequence of it: the 
@@ -365,18 +365,17 @@ pretend that storage is infinite (and it might as well be, given the size of
 modern hard drives), we may eventually hit a storage limit and need to remove
 information _permanently_. However, the second construction is preferable: we
 build systems to _remember_ in order to allow us to _forget_. In fact, we will
-take this to a further extreme in later sections of this article.
+take this to a further extreme in later sections of this article.[^12]
 
 [purely mechanism, without any policy]: https://en.wikipedia.org/wiki/Separation_of_mechanism_and_policy
-[^8]: It may be possible to formalise this as a term algebra, such that $\Sigma$
-is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
-
-[^9]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
-[^10]: As an aside, the separation of mechanism and policy is a [core principle
+[^8]: George Pólya, _How to Solve It_, Part III. Short Dictionary of Heuristic.
+[^9]: As an aside, the separation of mechanism and policy is a [core principle
 in the architecture of microkernels](https://www.cs.vu.nl/~ast/books/mos2/).
-[^11]: **Hint:** it's [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type).
-[^12]: I'm aware that this is not a perfect mapping: one cannot cross out the
+[^10]: It may be possible to formalise this as a term algebra, such that $\Sigma$
+is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
+[^11]: I'm aware that this is not a perfect mapping: one cannot cross out the
 cross to undo it. Such is the restriction when it comes to a physical medium.
+[^12]: **Hint:** it's [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type).
 
 # A Man Cannot Step into the Same River Twice...
 
