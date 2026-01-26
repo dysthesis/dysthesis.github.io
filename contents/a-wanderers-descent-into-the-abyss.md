@@ -353,6 +353,7 @@ is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
 </picture>
 <figcaption><em>The Waters of the Lethe by the Plains of Elysium</em> by John Roddam Spencer Stanhope</figcaption>
 </figure>
+
 > Fade far away, dissolve, and quite forget
 >
 > What thou among the leaves hast never known.
