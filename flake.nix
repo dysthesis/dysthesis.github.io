@@ -23,9 +23,13 @@
           name = "blog";
           version = "0.1.0";
           src = ./.;
-          nativeBuildInputs = [inputs'.ssg.packages.default];
+          nativeBuildInputs = [
+            inputs'.ssg.packages.default
+            pkgs.imagemagick
+          ];
           buildPhase = ''
             runHook preBuild
+            ./tools/optimise-images.sh assets/img
             ssg
             runHook postBuild
           '';
