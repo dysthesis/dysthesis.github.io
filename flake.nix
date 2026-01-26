@@ -47,7 +47,7 @@
             do
               woff2_compress "$font"
               base="$(basename "$font" .ttf)"
-              mv "${font}.woff2" "fonts-woff2/${base}.woff2"
+              mv "fonts/$base.woff2" "fonts-woff2/$base.woff2"
             done
             rm -rf fonts
             mv fonts-woff2 fonts
