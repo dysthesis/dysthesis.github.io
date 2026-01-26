@@ -93,9 +93,9 @@
             for html in root.rglob("*.html"):
                 text = html.read_text()
                 # Drop any .ttf preload hints (quotes may be absent)
-                text = re.sub(r'<link[^>]+href=[^>]+\\.ttf[^>]*>', '', text)
+                text = re.sub(r'<link[^>]+href=[^>]+\\.ttf[^>]*>', "", text)
                 # Drop the separate KaTeX stylesheet link now that it is inlined
-                text = re.sub(r'<link[^>]+katex\\.min\\.css[^>]*>', '', text)
+                text = re.sub(r'<link[^>]+katex\\.min\\.css[^>]*>', "", text)
                 # Inject our canonical preloads and icon after viewport meta if
                 # not already present.
                 if "fonts/Literata-Regular.woff2" not in text:
