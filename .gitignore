@@ -1,6 +1,3 @@
 result
 .direnv/
 public/
-assets/img/*.webp
-assets/img/*-800.jpg
-assets/img/*-800.png

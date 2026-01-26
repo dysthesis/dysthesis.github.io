@@ -48,9 +48,7 @@
                         subset_range="U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+2039-203A"
                         for font in \
                           fonts/Literata-Regular.ttf \
-                          fonts/Literata-Italic.ttf \
-                          fonts/AtkinsonHyperlegibleNext-Regular.ttf \
-                          fonts/AtkinsonHyperlegibleNext-Italic.ttf
+                          fonts/Literata-Italic.ttf
                         do
                           base="$(basename "$font" .ttf)"
                           pyftsubset "$font" \
@@ -70,26 +68,38 @@
 
                         python - <<'PY'
             import pathlib, re
+
             root = pathlib.Path("public")
+
+            # Inline KaTeX CSS into the main stylesheet to remove an extra
+            # render-blocking request. Rewrite font URLs to absolute paths so
+            # they still resolve from /style.css.
+            katex_css_path = pathlib.Path("assets/katex/katex.min.css")
+            style_path = root / "style.css"
+            if katex_css_path.exists() and style_path.exists():
+                katex_css = katex_css_path.read_text()
+                katex_css = katex_css.replace("fonts/", "/assets/katex/fonts/")
+                style = style_path.read_text()
+                style_path.write_text(style + "\n/* Inline KaTeX */\n" + katex_css)
+
             woff_preloads = [
                 '<link rel="preload" href="/fonts/Literata-Regular.woff2" as="font" type="font/woff2" crossorigin>',
                 '<link rel="preload" href="/fonts/Literata-Italic.woff2" as="font" type="font/woff2" crossorigin>',
-                '<link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-Regular.woff2" as="font" type="font/woff2" crossorigin>',
-                '<link rel="preload" href="/fonts/AtkinsonHyperlegibleNext-Italic.woff2" as="font" type="font/woff2" crossorigin>',
                 '<link rel="icon" href="/favicon.ico" sizes="any">'
             ]
             inject_block = "".join(woff_preloads)
             meta_pattern = re.compile(r'(<meta content="width=device-width,initial-scale=1" name=viewport>)')
+
             for html in root.rglob("*.html"):
                 text = html.read_text()
-                # Drop any .ttf preload hints
-                text = re.sub(r'<link[^>]+\\.(ttf)"[^>]*>', ''', text)
+                # Drop any .ttf preload hints (quotes may be absent)
+                text = re.sub(r'<link[^>]+href=[^>]+\\.ttf[^>]*>', '', text)
+                # Drop the separate KaTeX stylesheet link now that it is inlined
+                text = re.sub(r'<link[^>]+katex\\.min\\.css[^>]*>', '', text)
                 # Inject our canonical preloads and icon after viewport meta if
                 # not already present.
                 if "fonts/Literata-Regular.woff2" not in text:
                     text = meta_pattern.sub(r'\\1' + inject_block, text, count=1)
-                # Ensure KaTeX font-display stays swap (defensive)
-                text = text.replace('katex.min.css', 'katex.min.css')
                 html.write_text(text)
             PY
                         runHook postBuild

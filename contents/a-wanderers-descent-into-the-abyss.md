@@ -16,7 +16,7 @@ tags:
 <picture>
   <source type="image/webp" srcset="../assets/img/christs-descent-into-hell-800.webp 800w, ../assets/img/christs-descent-into-hell.webp 1400w" sizes="(max-width: 900px) 90vw, 800px">
   <source type="image/jpeg" srcset="../assets/img/christs-descent-into-hell-800.jpg 800w, ../assets/img/christs-descent-into-hell.jpg 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <img src="../assets/img/christs-descent-into-hell.jpg" alt="Christ’s Descent into Hell, by Follower of Hieronymus Bosch" width="1400" height="694" decoding="async">
+  <img src="../assets/img/christs-descent-into-hell.jpg" alt="Christ’s Descent into Hell, by Follower of Hieronymus Bosch" width="1400" height="694" decoding="async" fetchpriority="high">
 </picture>
 <figcaption><em>Christ’s Descent into Hell</em>, by Follower of Hieronymus Bosch</figcaption>
 </figure>
