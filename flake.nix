@@ -27,6 +27,10 @@
             inputs'.ssg.packages.default
             pkgs.imagemagick
           ];
+
+          preBuild = ''
+            patchShebangs tools/*
+          '';
           buildPhase = ''
             runHook preBuild
             ./tools/optimise-images.sh assets/img
