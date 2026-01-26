@@ -16,6 +16,7 @@
             deadnix
             nixd
             alejandra
+            python3
             inputs'.ssg.packages.default
           ];
         };
@@ -26,6 +27,7 @@
           nativeBuildInputs = [
             inputs'.ssg.packages.default
             pkgs.imagemagick
+            pkgs.woff2
           ];
 
           preBuild = ''
@@ -34,6 +36,22 @@
           buildPhase = ''
             runHook preBuild
             ./tools/optimise-images.sh assets/img
+
+            # Compress the two text faces we actually use to WOFF2.
+            mkdir -p fonts-woff2
+            for font in \
+              fonts/Literata-Regular.ttf \
+              fonts/Literata-Italic.ttf \
+              fonts/AtkinsonHyperlegibleNext-Regular.ttf \
+              fonts/AtkinsonHyperlegibleNext-Italic.ttf
+            do
+              woff2_compress "$font"
+              base="$(basename "$font" .ttf)"
+              mv "${font}.woff2" "fonts-woff2/${base}.woff2"
+            done
+            rm -rf fonts
+            mv fonts-woff2 fonts
+
             ssg
             runHook postBuild
           '';
@@ -41,9 +59,8 @@
             runHook preInstall
             mkdir -p $out
             cp -r public/* $out/
-            cp -r ${./fonts} $out/fonts
-            ls ${./assets} > $out/test
-            cp -r ${./assets} $out/assets
+            cp -r fonts $out/fonts
+            cp -r assets $out/assets
             runHook postInstall
           '';
         };
