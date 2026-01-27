@@ -212,12 +212,20 @@ who moves fast and breaks things are those who rises to the top. Yet one only
 need to earnestly observe the toilet bowl after one's bowel movement to witness
 a rise to the top. Such a conduct may have proven sufficient when software was
 built merely to power platforms to rate the attractiveness of Harvard students
-with dubious disclosure practices or consent[^8], but it is unnacceptable when every
-conceivable dimension of the average person's identity, and even _life_ is
+with dubious disclosure practices or consent[^8], but it is unnacceptable when 
+every conceivable dimension of the average person's identity, and even _life_ is
 stored inside of this Pandora's box, unknowingly mistaken as a toy and handed
 to the nearest infant.[^9]
 
-I, for one, wish to see this _discipline_ being treated with _discipline_.
+The world has observed [time](https://en.wikipedia.org/wiki/Robodebt_scheme), 
+and [time](https://en.wikipedia.org/wiki/Cambridge_Analytica), and 
+[time](https://en.wikipedia.org/wiki/Therac-25), 
+and [time](https://www.bbc.com/news/articles/ce87rer52k3o),
+and [time](https://www.theguardian.com/media/2025/oct/09/hack-age-verification-firm-discord-users-id-photos),
+again of the dire consequences of such a lax (arguably criminally so) posture.
+I, for one, wish to see this _discipline_ being treated with _discipline_. I 
+wish to see us _earn_ our place among the venerated pantheon of the sciences,
+instead of being one in name only.
 
 [^8]: See the [Wikipedia entry on the early days of Facebook](https://en.wikipedia.org/wiki/Facebook#History)
 [^9]: This additionally serves as an argument for privacy and against digital
