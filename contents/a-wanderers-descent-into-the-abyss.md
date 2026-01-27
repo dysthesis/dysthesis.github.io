@@ -12,14 +12,7 @@ tags:
 
 # The Road to Hell is Paved with Good Intentions 
 
-<figure class="image-container">
-<picture>
-  <source type="image/webp" srcset="../assets/img/christs-descent-into-hell-800.webp 800w, ../assets/img/christs-descent-into-hell.webp 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <source type="image/jpeg" srcset="../assets/img/christs-descent-into-hell-800.jpg 800w, ../assets/img/christs-descent-into-hell.jpg 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <img src="../assets/img/christs-descent-into-hell.jpg" alt="Christ’s Descent into Hell, by Follower of Hieronymus Bosch" width="1400" height="694" decoding="async" fetchpriority="high">
-</picture>
-<figcaption><em>Christ’s Descent into Hell</em>, by Follower of Hieronymus Bosch</figcaption>
-</figure>
+![*Christ’s Descent into Hell*, by Follower of Hieronymus Bosch](../assets/img/christs-descent-into-hell.jpg)
 
 > "I am a cage, in search of a bird."
 >
@@ -91,14 +84,7 @@ of thought and focus](https://www.nngroup.com/articles/response-times-3-importan
 
 # One Must Imagine Sisyphus Happy
 
-<figure class="image-container">
-<picture>
-  <source type="image/webp" srcset="../assets/img/Punishment_sisyph-800.webp 800w, ../assets/img/Punishment_sisyph.webp 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <source type="image/jpeg" srcset="../assets/img/Punishment_sisyph-800.jpg 800w, ../assets/img/Punishment_sisyph.jpg 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <img src="../assets/img/Punishment_sisyph.jpg" alt="Sisyphus by Titian" width="1400" height="1589" loading="lazy" decoding="async">
-</picture>
-<figcaption><em>Sisyphus</em> by Titian</figcaption>
-</figure>
+![*Sisyphus* by Titian](../assets/img/Punishment_sisyph.jpg)
 
 > "Who are you then?"
 >
@@ -114,14 +100,7 @@ with a lot of them. If I were to be eternally bound to [Obsidian] or [Emacs
 Org-mode], I would not 
 be dissatisfied.
 
-<figure class="image-container">
-<picture>
-  <source type="image/webp" srcset="../assets/img/standards-800.webp 800w, ../assets/img/standards.webp 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <source type="image/png" srcset="../assets/img/standards-800.png 800w, ../assets/img/standards.png 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <img src="../assets/img/standards.png" alt="How Standards Proliferate – xkcd #927" loading="lazy" decoding="async">
-</picture>
-<figcaption>How Standards Proliferate – xkcd #927</figcaption>
-</figure>
+![How Standards Proliferate – xkcd #927](../assets/img/standards.png)
 
 Why then, one might ask, would I go through such lengths to make yet another
 system? Simply, because I can. By both endeavour and fortune, I have been 
@@ -140,14 +119,7 @@ to push. _And with this endeavour, I am happy._
 
 # A Problem Well-Stated Is a Problem Half-Solved
 
-<figure class="image-container">
-<picture>
-  <source type="image/webp" srcset="../assets/img/melencolia_i_albrecht_durer-800.webp 800w, ../assets/img/melencolia_i_albrecht_durer.webp 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <source type="image/jpeg" srcset="../assets/img/melencolia_i_albrecht_durer-800.jpg 800w, ../assets/img/melencolia_i_albrecht_durer.jpg 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <img src="../assets/img/melencolia_i_albrecht_durer.jpg" alt="Melencolia I by Albrecht Dürer" width="1400" height="1769" loading="lazy" decoding="async">
-</picture>
-<figcaption><em>Melencolia I</em> by Albrecht Dürer</figcaption>
-</figure>
+![*Melencolia I* by Albrecht Dürer](../assets/img/melencolia_i_albrecht_durer.jpg)
 
 > "It is foolish to answer a question you do not understand."
 >
@@ -223,14 +195,7 @@ a _variable_ $x$, an _abstraction_ $\lambda x.\; t$, and an _application_ $t\; s
 
 # The Abyss Must First Be Measured
 
-<figure class="image-container">
-<picture>
-  <source type="image/webp" srcset="../assets/img/Europe_a_Prophecy_copy_K_plate_01-800.webp 800w, ../assets/img/Europe_a_Prophecy_copy_K_plate_01.webp 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <source type="image/jpeg" srcset="../assets/img/Europe_a_Prophecy_copy_K_plate_01-800.jpg 800w, ../assets/img/Europe_a_Prophecy_copy_K_plate_01.jpg 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <img src="../assets/img/Europe_a_Prophecy_copy_K_plate_01.jpg" alt="The Ancient of Days, by William Blake" width="1400" height="1897" loading="lazy" decoding="async">
-</picture>
-<figcaption><em>The Ancient of Days,</em> by William Blake</figcaption>
-</figure>
+![*The Ancient of Days,* by William Blake](../assets/img/Europe_a_Prophecy_copy_K_plate_01.jpg)
 
 > "Beware that, when fighting monsters, you yourself do not become a monster.
 > For when you gaze long into the abyss, the abyss gazes also into you."
@@ -345,14 +310,7 @@ is some term algebra $\mathcal{T}(\Alpha)$ over $\Alpha$.
 
 # To Drink from the River Lethe
 
-<figure class="image-container">
-<picture>
-  <source type="image/webp" srcset="../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880-800.webp 800w, ../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880.webp 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <source type="image/jpeg" srcset="../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880-800.jpg 800w, ../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880.jpg 1400w" sizes="(max-width: 900px) 90vw, 800px">
-  <img src="../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880.jpg" alt="The Waters of the Lethe by the Plains of Elysium by John Roddam Spencer Stanhope" loading="lazy" decoding="async">
-</picture>
-<figcaption><em>The Waters of the Lethe by the Plains of Elysium</em> by John Roddam Spencer Stanhope</figcaption>
-</figure>
+![*The Waters of the Lethe by the Plains of Elysium* by John Roddam Spencer Stanhope](../assets/img/The-waters-of-lethe-by-the-plains-of-elysium-1880.jpg)
 
 > Fade far away, dissolve, and quite forget
 >
