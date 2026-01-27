@@ -2,7 +2,7 @@
 title: "A Wanderer's Descent into the Abyss"
 subtitle: "Or, the Methods and Madness of the Cartography of Chaos"
 ctime: 2026-01-22
-mtime: 2026-01-23
+mtime: 2026-01-26
 tags:
   - crdt
   - database
