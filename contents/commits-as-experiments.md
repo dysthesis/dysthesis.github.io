@@ -93,8 +93,10 @@ things; it is only those projects created and maintained by the most seasoned,
 skilled developers which are able to achieve such a feat. Unfortunately, it is
 indeed a _feat_ -- one which remains unattained by the layperson.
 
-[^1]: ![Garraway's Coffee House in Exchange Alley, London](../assets/img/Garraways_Coffee_House.jpg) 
-In observance of tradition, this was written as I drank my morning cup of coffee.
+[^1]: In observance of tradition, this was written as I drank my morning cup of 
+coffee.
+
+    ![Garraway's Coffee House in Exchange Alley, London](../assets/img/Garraways_Coffee_House.jpg) 
 
 [^2]: Though, given what the vicissitudes of the world has decreed for us in
 recent times, perhaps not for long.
