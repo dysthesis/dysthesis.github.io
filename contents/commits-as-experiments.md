@@ -198,7 +198,7 @@ who moves fast and breaks things are those who rises to the top. Yet one only
 need to earnestly observe the toilet bowl after one's bowel movement to witness
 a rise to the top. Such a conduct may have proven sufficient when software was
 built merely to power platforms to rate the attractiveness of Harvard students
-with dubious disclosure practices or consent, but it is unnacceptable when every
+with dubious disclosure practices or consent[^8], but it is unnacceptable when every
 conceivable dimension of the average person's identity, and even _life_ is
 stored inside of this Pandora's box, unknowingly mistaken as a toy and handed
 to the nearest infant.[^9]
