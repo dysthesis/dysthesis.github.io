@@ -17,6 +17,11 @@ yet. I am interested in building this in the future, however, likely on top of
 
 ![_The witch no. 1_ by Joseph E.](../assets/img/2560px-Salem_witch2.jpg)
 
+> "Nullius in verba."
+>
+> (Take nobody's word for it.)
+> <footer>Motto of the Royal Society.</footer>
+
 It is standard practice for one to compose a Git commit message to communicate
 intent. The idea is that, _what_ changes are being made can be trivially
 deduced by reading the diff -- explaining that in the commit message would be
@@ -98,6 +103,13 @@ recent times, perhaps not for long.
 
 # Automation is the Poor Man's Discipline
 
+![_An Experiment on a Bird in the Air Pump_ by Joseph Wright of Derby](../assets/img/An_Experiment_on_a_Bird_in_an_Air_Pump_by_Joseph_Wright_of_Derby_1768.jpg)
+
+> "Civilization advances by extending the number of important operations which 
+> we can perform without thinking about them"
+>
+> <footer>Alfred North Whitehead, <em>An Introduction to Mathematics</em>.</footer>
+
 One cannot expect the fresh graduate[^4] to compare to the wise old greybeard,
 as they simply have not earned a comparable quantity and quality of experience 
 and learning. Even if one were to be sufficiently studious to know, in theory,
@@ -176,6 +188,8 @@ observation based on the given acceptance criteria -- it is therefore only as
 good as such.
 
 # Coda
+
+![_The Sleep of Reason Produces Monsters (El sueño de la razón produce monstruos)_ by Francisco Goya](../assets/img/The_sleep_of_reason_produces_monsters_Fransisco_Jos.jpg)
 
 > "For me, it is far better to grasp the Universe as it really is than to 
 > persist in delusion, however satisfying and reassuring."

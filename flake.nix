@@ -88,6 +88,11 @@
                 katex_css = katex_css_path.read_text()
                 katex_css = katex_css.replace("fonts-subset/", "/assets/katex/fonts-subset/")
                 katex_css = katex_css.replace("fonts/", "/assets/katex/fonts/")
+                # Preserve existing sidenote counter while keeping KaTeX counters.
+                katex_css = katex_css.replace(
+                    "body{counter-reset:katexEqnNo mmlEqnNo}",
+                    "body{counter-reset:sidenote-counter katexEqnNo mmlEqnNo}"
+                )
                 style = style_path.read_text()
                 style_path.write_text(style + "\n/* Inline KaTeX */\n" + katex_css)
 
