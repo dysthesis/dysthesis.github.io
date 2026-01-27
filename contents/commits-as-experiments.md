@@ -162,9 +162,16 @@ the proverbial, opulent facial hair.
 [^6]: Soundness means that anything that is false is not provable, and 
 completeness means that anything that is true is provable.
 [^7]: An interesting conjecture is to declare it in a proof assistant such as
-Lean, Isabellle, or LiquidHaskell, such that our axioms are proven by some 
-defined acceptance threshold of the collected data, and our hypothesis is 
-defined as a theorem on top of these axioms.
+Lean, Isabellle, or LiquidHaskell. A hypothesis is then declared as an axiom in
+the target formal language, alongside a falsification suite and an acceptance
+criteria with respect to said suite. A hypothesis that passes the criteria is
+then added to the generated library of axioms, allowing one to prove theorems
+on the runtime behaviour of the program. While it is true that empirical results
+are finite while formal axioms are universal, the declaration of the
+falsification sutie and acceptance criteria provides the necessary level of
+transparency: we have declared that these theorems are built on top of some
+finite empirical observation based on the given acceptance criteria -- it is
+therefore only as good as such.
 
 # Coda
 
