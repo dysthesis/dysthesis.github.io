@@ -161,17 +161,19 @@ the proverbial, opulent facial hair.
 
 [^6]: Soundness means that anything that is false is not provable, and 
 completeness means that anything that is true is provable.
-[^7]: An interesting conjecture is to declare it in a proof assistant such as
-Lean, Isabellle, or LiquidHaskell. A hypothesis is then declared as an axiom in
-the target formal language, alongside a falsification suite and an acceptance
-criteria with respect to said suite. A hypothesis that passes the criteria is
-then added to the generated library of axioms, allowing one to prove theorems
-on the runtime behaviour of the program. While it is true that empirical results
-are finite while formal axioms are universal, the declaration of the
-falsification sutie and acceptance criteria provides the necessary level of
-transparency: we have declared that these theorems are built on top of some
-finite empirical observation based on the given acceptance criteria -- it is
-therefore only as good as such.
+[^7]: An interesting conjecture is that declaring it in a proof assistant such as
+Lean, Isabellle, or LiquidHaskell transforms our experimentation framework into
+one which formally establishes properties about the runtime behaviour of our
+software. A hypothesis is then declared as an axiom in the target formal 
+language, alongside a falsification suite and an acceptance criteria with 
+respect to said suite. A hypothesis that passes the criteria is then added to 
+the generated library of axioms, allowing one to prove theorems on the runtime 
+behaviour of the program. While it is true that empirical results are finite 
+while formal axioms are universal, the declaration of the falsification sutie 
+and acceptance criteria provides the necessary level of transparency: we have 
+declared that these theorems are built on top of some finite empirical 
+observation based on the given acceptance criteria -- it is therefore only as 
+good as such.
 
 # Coda
 
@@ -179,3 +181,31 @@ therefore only as good as such.
 > persist in delusion, however satisfying and reassuring."
 >
 > <footer>Carl Sagan, <em>The Demon-Haunted World.</em></footer>
+
+My recent completion of my bachelor's degree imparted upon me a nihilistic view
+of the field. I have been told that computer science is a _science_, yet,
+outside of a select subdomain of the field, I do not see the prerequisite
+discipline and rigour. There is not much either in the way of the humility to
+recognise that we are fallible beings, nor the sense of responsiblity and burden
+to recognise the gravity of our work. We are building the nervous system on
+which human society runs, yet instead of the precision of a neurosurgeon, I see
+clumsiness of a doll-wielding toddler.
+
+**I have been promised science, yet have received instead superstition.**
+
+Perhaps it is the lasting cultural effect of the Silicon Valley era, as those
+who moves fast and breaks things are those who rises to the top. Yet one only
+need to earnestly observe the toilet bowl after one's bowel movement to witness
+a rise to the top. Such a conduct may have proven sufficient when software was
+built merely to power platforms to rate the attractiveness of Harvard students
+with dubious disclosure practices or consent, but it is unnacceptable when every
+conceivable dimension of the average person's identity, and even _life_ is
+stored inside of this Pandora's box, unknowingly mistaken as a toy and handed
+to the nearest infant.[^9]
+
+I, for one, wish to see this _discipline_ being treated with _discipline_.
+
+[^8]: See the [Wikipedia entry on the early days of Facebook](https://en.wikipedia.org/wiki/Facebook#History)
+[^9]: This additionally serves as an argument for privacy and against digital
+surveillance: why would you trust a careless entity with no incentive to look
+out for you with quite literally every facet of your life?
