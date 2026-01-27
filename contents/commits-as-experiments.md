@@ -153,12 +153,12 @@ knowledge and explanations for any further failures.
 
 [^4]: This is speaking from experience -- I am said fresh graduate yet to grow
 the proverbial, opulent facial hair.
-[^5]: <span class="sidenote-quote">
-The first principle is that you must not fool yourself—and you are the easiest 
-person to fool.
-</span>
+[^5]: <span class="sidenote-quote"> The first principle is that you must not
+    fool yourself — and you are the easiest person to fool.
+    </span>
 
-<span class="sidenote-cite">Richard Feynman.</span>
+    <span class="sidenote-cite">Richard Feynman.</span>
+
 [^6]: Soundness means that anything that is false is not provable, and 
 completeness means that anything that is true is provable.
 [^7]: An interesting conjecture is to declare it in a proof assistant such as
