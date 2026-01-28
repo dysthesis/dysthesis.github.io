@@ -6,7 +6,6 @@ mtime: 2026-01-27
 tags:
   - ideas
   - practices
-  - draft
 ---
 
 **Disclaimer.** This is only an idea that I've had, not something I've built 

@@ -7,8 +7,11 @@ tags:
   - crdt
   - database
   - systems-design
+  - notetaking
   - draft
 ---
+
+**Note.** Unfinished draft, mainly just a braindump.
 
 # The Road to Hell is Paved with Good Intentions 
 
