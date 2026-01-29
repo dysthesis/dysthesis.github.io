@@ -57,18 +57,35 @@ was a collection of index cards, each inscribed with an identifier and a
 _singular_ thought. Each card may refer to others by their respective
 identifiers, allowing them to build on each other.
 
-The central thesis of this approach is _emergence_[^3]--that the Zettelkasten is
+What this forms is discourse, or in particular, _self-discourse_. This is not
+too dissimilar with talking to oneself, with the only discriminant being the
+lack of organisation in the latter. Indeed, despite its glorification and
+borderline fetishisation in contemporary popular media (especially in the tech
+space with its release of a million new apps every waking hour purporting to
+improve on this methodology), Occam's razor[^3] posits that the most apt digital
+analogy to Luhmann's physical slip-box would be messaging oneself in the "Note
+to Self" feature present in most modern messaging apps.
+
+The central thesis of this approach is _emergence_[^4]--that the Zettelkasten is
 greater than the sum of its index cards. A fundamental way in which this occurs
 is by exposing an otherwise non-obvious connection between multiple, seemingly
 irrelevant ideas or even fields of study. That is, these ideas **collaborates**
-with each other to construct larger ideas.[^4]
+with each other to construct larger ideas.[^5]
 
 One may notice a subtle chasm presented by this notion, however: that while
 these ideas builds upon each others' strengths, none inherently notices each of
 their weaknesses. The peaceful silkworms have built their prosperity upon peace,
 yet they know not how to defend it when the blaring horns of war shouts.
 
-[^3]: Emergence is an idea which, much like Luhmann himself, lies at the complex
+[^3]: Occam's razor is the principle that the simplest explanation to a given
+observation is the most likely to be correct. Tangentially, an interesting
+continuation to this notion is that of [Solmonoff
+induction](https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference),
+a more formal contemporary suggesting that given a set of data on some 
+observation, the best scientific model is the shortest algorithm which produces 
+an identical data.
+
+[^4]: Emergence is an idea which, much like Luhmann himself, lies at the complex
 intersection of multiple disciplines. At its core, it is the observation that a
 composite entity may exhibit behaviour that is not present in any of its
 individual constituent components, and simultaneously, the conjecture that it is
