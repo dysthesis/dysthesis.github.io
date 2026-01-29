@@ -25,7 +25,7 @@ thought producing multitudes.
 
 Vastly removed from this in both time and space, the 14th century BCE Shang
 dynasty--and separately, the 7th century CE Tang dynasty--brought with it the
-蠱 (_gu_)--or equivalently, 金蠶 (_jin can_; literally, the _gold silkworm or
+蠱 (_gǔ_)--or equivalently, 金蠶 (_jīn cán_; literally, the _gold silkworm or
 caterpilllar_) in the Tang dynasty--the practice of confining a multitude of
 poisonous insects in a jar. These insects would be forced to devour each other
 to survive, and it is said that the final survivour will possess the most
