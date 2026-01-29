@@ -7,8 +7,6 @@ tags:
   - notetaking
 ---
 
-**Note.** Unfinished draft, mainly just a braindump.
-
 As I have been thinking a lot about how to build [my notetaking system], a key
 subject of ponderance have been on the limits of the use of automation, and in
 particular, language models. In particular, what should it be allowed to do, and
@@ -57,10 +55,10 @@ all, despite its [many](https://www.youtube.com/watch?v=kSno1-xOjwI), [_many_](h
 are now capable of performing actions derived from some, albeit _limited_, form
 of intelligence.
 
-I think the answer lies in the computer's _lack of intention_. For some -- arguably
-_most_ -- definitions of what constitutes intention, computers cannot exhibit it.
-Insofar as any technological advancements have brought us, intention remains the
-sole domain of humans.
+I think the answer lies in the computer's _lack of intention_. For some -- 
+arguably _most_ -- definitions of what constitutes intention, computers cannot 
+exhibit it. Insofar as any technological advancements have brought us, intention
+remains the sole domain of humans.
 
 This captures with it the heart of the discrimination at the thesis of this
 post: **the use of agentic language models to explore or write your notes is a
@@ -94,6 +92,30 @@ I don't suppose that it would be necessary to provide an exposition on why this
 also applies to allowing the language model to write in your notes, as the
 mapping should be self-explanatory and literal.
 
-[^1]: See Dijkstra's writing, ['On the foolishness of "natural language programming"'](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html).
-[^2]: It is, after all, one of the key strengths of atomic, relational note-taking
-systems, such as the Zettelkasten.
+This contrasts with "simpler" technologies such as embedding-based similarity
+measurement as the latter is more _specific_ in its use; all it is able to do is
+evaluate the semantic similarity of two texts. This, therefore, leaves the user
+alone to define the intent.
+
+[^1]: See Dijkstra's writing, ['On the foolishness of "natural language
+programming"'](https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html).
+[^2]: It is, after all, one of the key strengths of atomic, relational
+note-taking systems, such as the Zettelkasten.
+
+# Coda
+
+As with most things in life, moderation is key. I think that with technology in
+particular, moderation is defined by recognising the precise limits in what it
+_can_ and _cannot_ do. In other words, as Feynman once said:
+
+> The first principle is that you must not fool yourself -- and you are the 
+> easiest person to fool.
+>
+> <footer>Richard Feynman.</footer>
+
+By dismissing new technology without so much as a glance at it, you are _fooling
+yourself_ about what it _can_ do. Yet by subscribing to popular hype without a
+healthy dose of critical evaluation, you are _fooling yourself_ about what it
+_cannot_ do.
+
+**You must not fool yourself.**
