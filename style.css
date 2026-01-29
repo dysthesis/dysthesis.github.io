@@ -704,6 +704,11 @@ figcaption {
   padding: 0.75rem 0.9rem;
 }
 
+.sidenote-quote {
+  display: block;
+  margin: 0.65rem 0;
+}
+
 .sidenote-quote .s {
   display: block;
   margin: 0.5rem 0 0;

@@ -43,13 +43,16 @@ _gu_.](https://en.wikipedia.org/wiki/Gu_(poison))
 
 # A Parliament of Silkworms
 
+![_The Librarian_ by Giuseppe Arcimboldo](../assets/img/the-librarian.jpeg)
+
 > _"Für Kommunikation ist eine der elementaren Voraussetzungen, daß die Partner 
 > sich wechselseitig überraschen können."_
 >
 > (One of the elementary conditions of communication is that the partners can 
 > surprise one another.)
 >
-> <footer>Niklas Luhmann, <em>Communicating with Slip Boxes: An Empirical Account</em></footer>
+> <footer>Niklas Luhmann, 
+> <em>Communicating with Slip Boxes: An Empirical Account</em></footer>
 
 Niklas Luhmann attributed a non-trivial amount of his productive output to the
 continued tending of his intellectual garden--his _Zettelkasten_. In essence, it
@@ -104,6 +107,8 @@ dynamic programming.
 
 # The Disquiet of Soundness
 
+![_Saturno Devorando a su Hijo (Saturn Devouring His Son)_ by Francisco Goya](../assets/img/saturn-devouring-his-son.jpg)
+
 > 故兵無常勢，水無常形。
 >
 > (Therefore, just as water retains no constant shape, so in warfare there are
@@ -112,9 +117,10 @@ dynamic programming.
 > <footer>Sun Tzu, <em>The Art of War.</em></footer>
 
 In _The Logic of Scientific Discovery,_ the philosopher Karl Poppler penned the
-death knell of the _principle of induction_[^6]--which hitherto had reigned
-supreme in the realm of science--and proposed what would eventually become the
-foundations of empirical science. In it, he submits three foundational premises:
+death knell for the universality of the _principle of induction_[^6]--which
+hitherto had reigned supreme in the realm of science--and proposed what would
+eventually become the foundations of empirical science. In it, he submits three
+foundational premises:
 that
 
 - the principle of induction cannot derive its basis without falling into the 
@@ -128,7 +134,7 @@ On these premises hinges his thesis: **a system is admissible as empirical or
 scientific only if it is falsifiable by experience.** This makes the necessary
 omission of verifiability due to its impossibility.
 
-There exists a more metaphysical counterpart to this empriical notion: that of
+There exists a more metaphysical counterpart to this empirical notion: that of
 the _correctness_ of a proof system as the twin of
 
 - _soundness,_ declaring that all which the system proves must be true--key to
@@ -163,7 +169,6 @@ the _problem of induction_.
 [^7]: The grounding of inductive inference on experience degrades into begging
 the question; as Poppler puts it:
 
-
     <span class="sidenote-quote"> 
     For the principle of induction must be a universal statement in its turn.
     Thus, if we try to regard its truth as known from experience, then the very
@@ -181,6 +186,16 @@ the Wikipedia page on [soundness](https://en.wikipedia.org/wiki/Soundness) and
 [completeness](https://en.wikipedia.org/wiki/Completeness_(logic)).
 
 # Coda
+
+![_Joueurs d'échecs (The Chess Players)_ by Honoré Daumier](../assets/img/the-chess-players.jpg)
+
+> "Il faut qu’il n’exige pas le secret, et qu’il puisse sans inconvénient tomber
+> entre les mains de l’ennemi."
+>
+> (It [the cryptosystem] should not require secrecy, and it should not be a 
+> problem if it falls into enemy hands.)
+>
+> <footer>Auguste Kerckhoffs, <em>La Cryptographie Militaire.</em></footer>
 
 Abstract rambling aside, what I am proposing in a more concrete manner is to
 consider and define a falsification criteria for each idea in one's
