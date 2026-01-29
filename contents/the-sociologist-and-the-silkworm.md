@@ -128,8 +128,32 @@ On these premises hinges his thesis: **a system is admissible as empirical or
 scientific only if it is falsifiable by experience.** This makes the necessary
 omission of verifiability due to its impossibility.
 
-Hence, while _collaboration_ is a tireless workhorse for the creation of novel
-ideas, it is only with _competition_ that they can prove their values. A
+There exists a more metaphysical counterpart to this empriical notion: that of
+the _correctness_ of a proof system as the twin of
+
+- _soundness,_ declaring that all which the system proves must be true--key to
+  which is the lack of false premises--and
+- _completeness_, declaring that all which is true must be provable by the 
+  system.[^8]
+
+Mapped to this notion, a theory cannot be realistically be proven to be complete
+as it seeks to model a world that can be thought as infinite (an unreasonable
+endeavour!). It can, however, be proven sound by, as mentioned previously,
+showing that there does not exist a false premise. We can then map falsification
+as _contradiction_--the existence of mutually incompatible premises $x$ and
+$\lnot x$--which necessitates either one to be false, and consequently, that the
+system is unsound.
+
+This examination under the strict notion of falsifiability and contradiction
+is the missing piece to the creative workhorse of the _zettelkasten_. While its
+_collaboration_ is a grand rapids of novel ideas, it is only with _competition_
+that they can prove their values. The clay must be fired in the klin, driving
+off bound moisture and burning off organic material, rendering the resulting
+one's ideas must be put to the fire of falsification, such that what remains
+ceramic stronger; likewise, becomes more resilient. Without this scrutiny, one
+may derive a wealth of ideas, yet without proving the value of any. If one does
+not test their ideas themselves, then the world will eventually test it for them;
+when that comes, they may never know, and thus may never be prepared.
 
 [^6]: The principle of induction is the inference of _universal statements_,
 such as hypotheses or theories, from _singular statements_, such as the results
@@ -150,5 +174,22 @@ the question; as Poppler puts it:
 
     <span class="sidenote-cite">Karl Poppler, <em>The Logic of Scientific Discovery.</em></span>
 
+[^8]: From [Cornell's CS 2800, Spring 2016, Lecture
+39](https://www.cs.cornell.edu/courses/cs2800/2016sp/lectures/lec39-sound-complete.html), and
+the Wikipedia page on [soundness](https://en.wikipedia.org/wiki/Soundness) and
+[completeness](https://en.wikipedia.org/wiki/Completeness_(logic)).
 
 # Coda
+
+Abstract rambling aside, what I am proposing in a more concrete manner is to
+consider and define a falsification criteria for each idea in one's
+_zettelkasten_. Consider what fact would, if found to be true, render it false,
+or at least _challenge_ its truthfulness.
+
+Likewise, as a more concrete counterpart to the more abstract motivation
+presented in the previous section, consider the security engineer's notion of
+an _attacker's mindset_: when constructing the defense of a (generally computer)
+system, one must put themselves in the shoes of the attacker. That is, construct
+a _threat model_ in order to define what is being secured and what constitutes a
+security breach, and, with that as a goal, consider how one would breach the
+security of the system given its current construction.
