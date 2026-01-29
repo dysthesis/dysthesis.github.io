@@ -91,7 +91,7 @@ composite entity may exhibit behaviour that is not present in any of its
 individual constituent components, and simultaneously, the conjecture that it is
 a sort of fundamental law of the universe.
 
-[^4]: As an aside, one may notice the analogy with [dynamic
+[^5]: As an aside, one may notice the analogy with [dynamic
 programming](https://en.wikipedia.org/wiki/Dynamic_programming), except in that
 a Zettelkasten is bottom-up in nature, in contrast to the top-down regime of
 dynamic programming.
