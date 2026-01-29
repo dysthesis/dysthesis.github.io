@@ -2,7 +2,7 @@
 title: "The Sociologist and the Silkworm"
 subtitle: "A Missing Adversarial Disposition to Exploration"
 ctime: 2026-01-29
-mtime: 2026-01-29
+mtime: 2026-01-30
 tags:
   - practices
   - notetaking
@@ -74,7 +74,7 @@ greater than the sum of its index cards. A fundamental way in which this occurs
 is by exposing an otherwise non-obvious connection between multiple, seemingly
 irrelevant ideas or even fields of study. That is, these ideas **collaborates**
 with each other to construct larger ideas.[^5] A problem may exist in different
-fields yet taking on a homomorphic shape; the solution to one may therefore be
+fields yet taking on a common shape; the solution to one may therefore be
 applicable to the other, or at least, ideas from it leveraged to transmute the
 problem into a more readily-solved form. Better yet, the shape of the solution
 can be _abstracted_, rendering it more amenable to be applied in future problems
