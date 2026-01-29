@@ -1,8 +1,8 @@
 ---
 title: "The Sociologist and the Silkworm"
 subtitle: "A Missing Adversarial Disposition to Exploration"
-ctime: 2026-01-28
-mtime: 2026-01-28
+ctime: 2026-01-29
+mtime: 2026-01-29
 tags:
   - practices
   - notetaking
