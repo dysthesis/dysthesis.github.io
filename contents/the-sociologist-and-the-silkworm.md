@@ -70,7 +70,13 @@ The central thesis of this approach is _emergence_[^4]--that the Zettelkasten is
 greater than the sum of its index cards. A fundamental way in which this occurs
 is by exposing an otherwise non-obvious connection between multiple, seemingly
 irrelevant ideas or even fields of study. That is, these ideas **collaborates**
-with each other to construct larger ideas.[^5]
+with each other to construct larger ideas.[^5] A problem may exist in different
+fields yet taking on a homomorphic shape; the solution to one may therefore be
+applicable to the other, or at least, ideas from it leveraged to transmute the
+problem into a more readily-solved form. Better yet, the shape of the solution
+can be _abstracted_, rendering it more amenable to be applied in future problems
+of similar shapes. One idea may join together two to produce a sum greater than
+the two.
 
 One may notice a subtle chasm presented by this notion, however: that while
 these ideas builds upon each others' strengths, none inherently notices each of
