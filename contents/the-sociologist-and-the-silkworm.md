@@ -111,4 +111,39 @@ dynamic programming.
 >
 > <footer>Sun Tzu, <em>The Art of War.</em></footer>
 
+In _The Logic of Scientific Discovery,_ the philosopher Karl Poppler penned the
+death knell of the _principle of induction_[^6]--which hitherto had reigned
+supreme in the realm of science--and proposed what would eventually become the
+foundations of empirical science. In it, he submits three foundational premises:
+that
+
+- the principle of induction cannot derive its basis without falling into the 
+  pit of infinite regress,[^7]
+- any statement of empirical science must be _conclusively decidable_; that is,
+  it must be both _verifiable_, and _falsifiable_, and
+- theories are _never empirically verifiable_, as doing so necessarily requires
+  the principle of induction.
+
+On these premises hinges his thesis: **a system is admissible as empirical or
+scientific only if it is falsifiable by experience.** This makes the necessary
+omission of verifiability due to its impossibility.
+
+[^6]: The principle of induction is the inference of _universal statements_,
+such as hypotheses or theories, from _singular statements_, such as the results
+of observations or experiments, given sufficient justification of such 
+inference. The determination of the criteria for the latter is what is known as
+the _problem of induction_.
+[^7]: The grounding of inductive inference on experience degrades into begging
+the question; as Poppler puts it: <span class="sidenote-quote"> 
+    For the principle of induction must be a universal statement in its turn.
+    Thus, if we try to regard its truth as known from experience, then the very
+    same problem which occasioned its introduction will arise all over again. To
+    justify it, we should have to employ inductive inferences; and to justify
+    these we should have to assume an inductive principle of a higher order; and
+    so on.
+    </span>
+
+    <span class="sidenote-cite">Karl Poppler, <em>The Logic of Scientific Discovery.</em></span>
+
+
 # Coda
