@@ -177,7 +177,6 @@ the question; as Poppler puts it:
     these we should have to assume an inductive principle of a higher order; and
     so on.
     </span>
-
     <span class="sidenote-cite">Karl Poppler, <em>The Logic of Scientific Discovery.</em></span>
 
 [^8]: From [Cornell's CS 2800, Spring 2016, Lecture
