@@ -128,13 +128,18 @@ On these premises hinges his thesis: **a system is admissible as empirical or
 scientific only if it is falsifiable by experience.** This makes the necessary
 omission of verifiability due to its impossibility.
 
+Hence, while _collaboration_ is a tireless workhorse for the creation of novel
+ideas, it is only with _competition_ that they can prove their values. A
+
 [^6]: The principle of induction is the inference of _universal statements_,
 such as hypotheses or theories, from _singular statements_, such as the results
 of observations or experiments, given sufficient justification of such 
 inference. The determination of the criteria for the latter is what is known as
 the _problem of induction_.
 [^7]: The grounding of inductive inference on experience degrades into begging
-the question; as Poppler puts it: <span class="sidenote-quote"> 
+the question; as Poppler puts it: 
+
+    <span class="sidenote-quote"> 
     For the principle of induction must be a universal statement in its turn.
     Thus, if we try to regard its truth as known from experience, then the very
     same problem which occasioned its introduction will arise all over again. To
