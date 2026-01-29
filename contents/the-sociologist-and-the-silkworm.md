@@ -161,7 +161,8 @@ of observations or experiments, given sufficient justification of such
 inference. The determination of the criteria for the latter is what is known as
 the _problem of induction_.
 [^7]: The grounding of inductive inference on experience degrades into begging
-the question; as Poppler puts it: 
+the question; as Poppler puts it:
+
 
     <span class="sidenote-quote"> 
     For the principle of induction must be a universal statement in its turn.
@@ -193,3 +194,19 @@ system, one must put themselves in the shoes of the attacker. That is, construct
 a _threat model_ in order to define what is being secured and what constitutes a
 security breach, and, with that as a goal, consider how one would breach the
 security of the system given its current construction.
+
+In a note-taking system whose goal is to capture indiscriminately and maximally,
+I believe there to be two harbingers of rot, namely
+
+- unreliability; that is, the information contained cannot be reliably
+  guaranteed to be accurate, and
+- irrelevancy; that is, the system fails to bring into prominence information
+  that has higher relevance to one's current activities--or equivalently,
+  obscure those which have lower relevance.
+
+I may elaborate on this notion further in a later post, but for now, I believe
+that this adversarial aspect to note-taking and exploration of ideas forms a
+sufficient mechanism to defend against the former, namely _unreliability_. By
+pre-emptively scrutinising our ideas, we may be more confident to rely on them,
+secure in our knowledge that we are less likely to be surprised by a sudden 
+revelation of inaccuracy.
