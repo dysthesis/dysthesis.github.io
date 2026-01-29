@@ -20,8 +20,10 @@ dynasty--and separately, the 7th century CE Tang dynasty--brought with it the
 caterpilllar_) in the Tang dynasty--the practice of confining a multitude of
 poisonous insects in a jar. These insects would be forced to devour each other
 to survive, and it is said that the final survivour will possess the most
-powerful poison.
+powerful poison. [^2]
 
-[^1]: From the [Wikipedia article of
+[^1]: From the [Wikipedia article for
 Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann).
-[gu/jinchan poison]: https://en.wikipedia.org/wiki/Gu_(poison)
+
+[^2]: From the [Wikipedia article for the
+_gu_.](https://en.wikipedia.org/wiki/Gu_(poison))
