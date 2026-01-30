@@ -2,7 +2,7 @@
 title: "A Wanderer's Descent into the Abyss"
 subtitle: "Or, the Methods and Madness of the Cartography of Chaos"
 ctime: 2026-01-22
-mtime: 2026-01-26
+mtime: 2026-01-30
 tags:
   - crdt
   - database
@@ -333,7 +333,8 @@ $\sigma'$ of the original store $\sigma$. Deletion may therefore be defined as
 some function $\text{del}: \mathbb{S} \times \Alpha \to \mathbb{S}$, such that
 
 $$
-\text{del} = \lambda \alpha\; S. (\rho\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S,
+\text{del} = \lambda \alpha\; S. (\rho\; (f\; \alpha)\; \sigma, \Alpha, \oplus, 
+\rho) \text{ where }\sigma\in S,
 $$
 
 where $f$ is some function mapping the atom $\alpha$ to the correct expression
@@ -354,7 +355,8 @@ we will get to later.[^11]
 As such, we may also map deletion as
 
 $$
-\text{del} = \lambda \alpha \;S. (\oplus\; (f\; \alpha)\; \sigma, \Alpha, \oplus, \rho) \text{ where }\sigma\in S.
+\text{del} = \lambda \alpha \;S. (\oplus\; (f\; \alpha)\; \sigma, \Alpha,
+\oplus, \rho) \text{ where }\sigma\in S.
 $$
 
 The consequence of the above construct is that deletion is a reversible 
@@ -466,6 +468,38 @@ cross to undo it. Such is the restriction when it comes to a physical medium.
 
     <span class="sidenote-cite">Virgil, <em>Aeneid</em>, Book IV.</span>
 
-# A Man Cannot Step into the Same River Twice...
+# A Cartography of State
 
-...or can they?
+We have arrived at the most abstract representation of the note-taking system.
+A suitable next step would be to iteratively examine each component $\Sigma$,
+$\Alpha$, $\oplus$, and $\rho$ in $S$; in more colloquial terms, we seek to
+_flesh out_ our design, solidifying it in place.[^14] I conjecture that each
+iteration restricts the space of possible design, and that there exists a
+threshold at which such a space is sufficiently restricted that the variations
+will not cause any significant discrepancy in behaviour. It is at this threshold
+at which we will begin the implementation. Of course, this is not in any way a
+formal nor rigorous definition--and I claim that one cannot be constructed with
+any reasonable amount of effort--hence it is up to our own discretion to
+determine where that threshold lies. That is, rather unsatisfactorily, _we will
+know it when we get there._
+
+I will arbitrarily select the atoms $\Alpha$ and state space $\Sigma$ as the
+first component to examine closer. The design of this is central with respect to
+that of the input and reduction functions $\oplus$ and $\rho$, as they form the
+structure on which these functions operate. Furthermore, these two components
+are _heavily_ related with each other--note that $\Sigma$ is literally defined
+in terms of some structuring of $\alpha in \Alpha$. Our first task is therefore
+to formalise this relation between $\Alpha$ and $\Sigma$.
+
+[^14]: There are two approaches with which we could iterate through this design,
+corresponding to the two fundamental graph exploration algorithms: a
+breadth-first search and a depth-first search. That is, we could either iterate
+through every component at the current level of abstraction before proceeding to
+examine their sub-components further, or focus on one sub-component until we
+reach our most concrete level of abstraction. Here, I will choose to perform the
+equivalent of a breadth-first search, as I claim that every component in each
+level is dependent upon each other. For instance, it should be self-explanatory
+that the design of the input and reduction functions depends on that of the 
+state $\Sigma$ as their medium of "communication". Hence, decisions on one
+component heavily influences the trade-offs of others, and we must consider them
+thoroughly before proceeding down the layers.
