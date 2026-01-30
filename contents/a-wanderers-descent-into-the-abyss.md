@@ -488,7 +488,7 @@ first component to examine closer. The design of this is central with respect to
 that of the input and reduction functions $\oplus$ and $\rho$, as they form the
 structure on which these functions operate. Furthermore, these two components
 are _heavily_ related with each other--note that $\Sigma$ is literally defined
-in terms of some structuring of $\alpha in \Alpha$. Our first task is therefore
+in terms of some structuring of $\alpha \in \Alpha$. Our first task is therefore
 to formalise this relation between $\Alpha$ and $\Sigma$.
 
 [^14]: There are two approaches with which we could iterate through this design,
