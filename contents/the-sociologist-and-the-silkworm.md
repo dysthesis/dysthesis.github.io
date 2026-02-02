@@ -1,6 +1,6 @@
 ---
-title: "The Sociologist and the Silkworm"
-subtitle: "A Missing Adversarial Disposition to Exploration"
+title: The Sociologist and the Silkworm
+subtitle: A Missing Adversarial Disposition to Exploration
 ctime: 2026-01-29
 mtime: 2026-01-30
 tags:
@@ -24,8 +24,8 @@ thoughts. Together, they spun the endless silk of thought--the soltitude of
 thought producing multitudes.
 
 Vastly removed from this in both time and space, the 14th century BCE Shang
-dynasty--and separately, the 7th century CE Tang dynasty--brought with it the
-蠱 (_gǔ_)--or equivalently, 金蠶 (_jīn cán_; literally, the _gold silkworm or
+dynasty--and separately, the 7th century CE Tang dynasty--brought with it the 蠱
+(_gǔ_)--or equivalently, 金蠶 (_jīn cán_; literally, the _gold silkworm or
 caterpilllar_) in the Tang dynasty--the practice of confining a multitude of
 poisonous insects in a jar. These insects would be forced to devour each other
 to survive, and it is said that the final survivour will possess the most
@@ -35,20 +35,14 @@ The busy silkworms of Luhmann's republic were diligent; none can argue to the
 contrary. Yet it has known only peace, and a nation at peace is lulled into
 complacency. They grew warm and wise, yet have never tasted blood.
 
-[^1]: From the [Wikipedia article for
-Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann).
-
-[^2]: From the [Wikipedia article for the
-_gu_.](https://en.wikipedia.org/wiki/Gu_(poison))
-
 # A Parliament of Silkworms
 
-![_The Librarian_ by Giuseppe Arcimboldo](../assets/img/the-librarian.jpeg)
+![The Librarian by Giuseppe Arcimboldo](../assets/img/the-librarian.jpeg)
 
-> _"Für Kommunikation ist eine der elementaren Voraussetzungen, daß die Partner 
+> _"Für Kommunikation ist eine der elementaren Voraussetzungen, daß die Partner
 > sich wechselseitig überraschen können."_
 >
-> (One of the elementary conditions of communication is that the partners can 
+> (One of the elementary conditions of communication is that the partners can
 > surprise one another.)
 >
 > <footer>Niklas Luhmann, 
@@ -86,28 +80,9 @@ these ideas builds upon each others' strengths, none inherently notices each of
 their weaknesses. The peaceful silkworms have built their prosperity upon peace,
 yet they know not how to defend it when the blaring horns of war shouts.
 
-[^3]: Occam's razor is the principle that the simplest explanation to a given
-observation is the most likely to be correct. Tangentially, an interesting
-continuation to this notion is that of [Solmonoff
-induction](https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference),
-a more formal contemporary suggesting that given a set of data on some 
-observation, the best scientific model is the shortest algorithm which produces 
-an identical data.
-
-[^4]: Emergence is an idea which, much like Luhmann himself, lies at the complex
-intersection of multiple disciplines. At its core, it is the observation that a
-composite entity may exhibit behaviour that is not present in any of its
-individual constituent components, and simultaneously, the conjecture that it is
-a sort of fundamental law of the universe.
-
-[^5]: As an aside, one may notice the analogy with [dynamic
-programming](https://en.wikipedia.org/wiki/Dynamic_programming), except in that
-a Zettelkasten is bottom-up in nature, in contrast to the top-down regime of
-dynamic programming.
-
 # The Disquiet of Soundness
 
-![_Saturno Devorando a su Hijo (Saturn Devouring His Son)_ by Francisco Goya](../assets/img/saturn-devouring-his-son.jpg)
+![Saturno Devorando a su Hijo (Saturn Devouring His Son) by Francisco Goya](../assets/img/saturn-devouring-his-son.jpg)
 
 > 故兵無常勢，水無常形。
 >
@@ -120,10 +95,9 @@ In _The Logic of Scientific Discovery,_ the philosopher Karl Poppler penned the
 death knell for the universality of the _principle of induction_[^6]--which
 hitherto had reigned supreme in the realm of science--and proposed what would
 eventually become the foundations of empirical science. In it, he submits three
-foundational premises:
-that
+foundational premises: that
 
-- the principle of induction cannot derive its basis without falling into the 
+- the principle of induction cannot derive its basis without falling into the
   pit of infinite regress,[^7]
 - any statement of empirical science must be _conclusively decidable_; that is,
   it must be both _verifiable_, and _falsifiable_, and
@@ -139,7 +113,7 @@ the _correctness_ of a proof system as the twin of
 
 - _soundness,_ declaring that all which the system proves must be true--key to
   which is the lack of false premises--and
-- _completeness_, declaring that all which is true must be provable by the 
+- _completeness_, declaring that all which is true must be provable by the
   system.[^8]
 
 Mapped to this notion, a theory cannot be realistically be proven to be complete
@@ -147,51 +121,28 @@ as it seeks to model a world that can be thought as infinite (an unreasonable
 endeavour!). It can, however, be proven sound by, as mentioned previously,
 showing that there does not exist a false premise. We can then map falsification
 as _contradiction_--the existence of mutually incompatible premises $x$ and
-$\lnot x$--which necessitates either one to be false, and consequently, that the
-system is unsound.
+$\\lnot x$--which necessitates either one to be false, and consequently, that
+the system is unsound.
 
-This examination under the strict notion of falsifiability and contradiction
-is the missing piece to the creative workhorse of the _zettelkasten_. While its
+This examination under the strict notion of falsifiability and contradiction is
+the missing piece to the creative workhorse of the _zettelkasten_. While its
 _collaboration_ is a grand rapids of novel ideas, it is only with _competition_
 that they can prove their values. The clay must be fired in the klin, driving
 off bound moisture and burning off organic material, rendering the resulting
 one's ideas must be put to the fire of falsification, such that what remains
 ceramic stronger; likewise, becomes more resilient. Without this scrutiny, one
 may derive a wealth of ideas, yet without proving the value of any. If one does
-not test their ideas themselves, then the world will eventually test it for them;
-when that comes, they may never know, and thus may never be prepared.
-
-[^6]: The principle of induction is the inference of _universal statements_,
-such as hypotheses or theories, from _singular statements_, such as the results
-of observations or experiments, given sufficient justification of such 
-inference. The determination of the criteria for the latter is what is known as
-the _problem of induction_.
-[^7]: The grounding of inductive inference on experience degrades into begging
-the question; as Poppler puts it:
-
-    <span class="sidenote-quote"> 
-    For the principle of induction must be a universal statement in its turn.
-    Thus, if we try to regard its truth as known from experience, then the very
-    same problem which occasioned its introduction will arise all over again. To
-    justify it, we should have to employ inductive inferences; and to justify
-    these we should have to assume an inductive principle of a higher order; and
-    so on.
-    </span>
-    <span class="sidenote-cite">Karl Poppler, <em>The Logic of Scientific Discovery.</em></span>
-
-[^8]: From [Cornell's CS 2800, Spring 2016, Lecture
-39](https://www.cs.cornell.edu/courses/cs2800/2016sp/lectures/lec39-sound-complete.html), and
-the Wikipedia page on [soundness](https://en.wikipedia.org/wiki/Soundness) and
-[completeness](https://en.wikipedia.org/wiki/Completeness_(logic)).
+not test their ideas themselves, then the world will eventually test it for
+them; when that comes, they may never know, and thus may never be prepared.
 
 # Coda
 
-![_Joueurs d'échecs (The Chess Players)_ by Honoré Daumier](../assets/img/the-chess-players.jpg)
+![Joueurs d'échecs (The Chess Players) by Honoré Daumier](../assets/img/the-chess-players.jpg)
 
 > "Il faut qu’il n’exige pas le secret, et qu’il puisse sans inconvénient tomber
 > entre les mains de l’ennemi."
 >
-> (It [the cryptosystem] should not require secrecy, and it should not be a 
+> (It [the cryptosystem] should not require secrecy, and it should not be a
 > problem if it falls into enemy hands.)
 >
 > <footer>Auguste Kerckhoffs, <em>La Cryptographie Militaire.</em></footer>
@@ -202,8 +153,8 @@ _zettelkasten_. Consider what fact would, if found to be true, render it false,
 or at least _challenge_ its truthfulness.
 
 Likewise, as a more concrete counterpart to the more abstract motivation
-presented in the previous section, consider the security engineer's notion of
-an _attacker's mindset_: when constructing the defense of a (generally computer)
+presented in the previous section, consider the security engineer's notion of an
+_attacker's mindset_: when constructing the defense of a (generally computer)
 system, one must put themselves in the shoes of the attacker. That is, construct
 a _threat model_ in order to define what is being secured and what constitutes a
 security breach, and, with that as a goal, consider how one would breach the
@@ -222,5 +173,55 @@ I may elaborate on this notion further in a later post, but for now, I believe
 that this adversarial aspect to note-taking and exploration of ideas forms a
 sufficient mechanism to defend against the former, namely _unreliability_. By
 pre-emptively scrutinising our ideas, we may be more confident to rely on them,
-secure in our knowledge that we are less likely to be surprised by a sudden 
+secure in our knowledge that we are less likely to be surprised by a sudden
 revelation of inaccuracy.
+
+[^1]: From the
+    [Wikipedia article for Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann).
+
+[^2]: From the
+    [Wikipedia article for the _gu_.](<https://en.wikipedia.org/wiki/Gu_(poison)>)
+
+[^3]: Occam's razor is the principle that the simplest explanation to a given
+    observation is the most likely to be correct. Tangentially, an interesting
+    continuation to this notion is that of
+    [Solmonoff induction](https://en.wikipedia.org/wiki/Solomonoff's_theory_of_inductive_inference),
+    a more formal contemporary suggesting that given a set of data on some
+    observation, the best scientific model is the shortest algorithm which
+    produces an identical data.
+
+[^4]: Emergence is an idea which, much like Luhmann himself, lies at the complex
+    intersection of multiple disciplines. At its core, it is the observation
+    that a composite entity may exhibit behaviour that is not present in any of
+    its individual constituent components, and simultaneously, the conjecture
+    that it is a sort of fundamental law of the universe.
+
+[^5]: As an aside, one may notice the analogy with
+    [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming),
+    except in that a Zettelkasten is bottom-up in nature, in contrast to the
+    top-down regime of dynamic programming.
+
+[^6]: The principle of induction is the inference of _universal statements_, such
+    as hypotheses or theories, from _singular statements_, such as the results
+    of observations or experiments, given sufficient justification of such
+    inference. The determination of the criteria for the latter is what is known
+    as the _problem of induction_.
+
+[^7]: The grounding of inductive inference on experience degrades into begging the
+    question; as Poppler puts it:
+
+    <span class="sidenote-quote"> 
+    For the principle of induction must be a universal statement in its turn.
+    Thus, if we try to regard its truth as known from experience, then the very
+    same problem which occasioned its introduction will arise all over again. To
+    justify it, we should have to employ inductive inferences; and to justify
+    these we should have to assume an inductive principle of a higher order; and
+    so on.
+    </span>
+    <span class="sidenote-cite">Karl Poppler, <em>The Logic of Scientific Discovery.</em></span>
+
+[^8]: From
+    [Cornell's CS 2800, Spring 2016, Lecture 39](https://www.cs.cornell.edu/courses/cs2800/2016sp/lectures/lec39-sound-complete.html),
+    and the Wikipedia page on
+    [soundness](https://en.wikipedia.org/wiki/Soundness) and
+    [completeness](<https://en.wikipedia.org/wiki/Completeness_(logic)>).

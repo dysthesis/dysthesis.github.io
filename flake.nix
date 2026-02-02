@@ -4,11 +4,29 @@
   outputs = inputs @ {flake-parts, ...}:
     flake-parts.lib.mkFlake {inherit inputs;} {
       systems = ["x86_64-linux" "aarch64-linux" "aarch64-darwin" "x86_64-darwin"];
+      imports = [inputs.treefmt-nix.flakeModule];
       perSystem = {
         pkgs,
         inputs',
         ...
       }: {
+        treefmt = {
+          projectRootFile = "flake.nix";
+          programs = {
+            mdformat = {
+              enable = true;
+              plugins = p:
+                with p; [
+                  mdformat-gfm
+                  mdformat-footnote
+                  mdformat-frontmatter
+                ];
+              settings.wrap = 80;
+            };
+            shfmt.enable = true;
+            alejandra.enable = true;
+          };
+        };
         devShells.default = pkgs.mkShellNoCC {
           packages = with pkgs; [
             # Nix
@@ -175,6 +193,10 @@
   inputs = {
     flake-parts.url = "github:hercules-ci/flake-parts";
     nixpkgs.url = "github:NixOS/nixpkgs";
+    treefmt-nix = {
+      url = "github:numtide/treefmt-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     ssg = {
       url = "github:dysthesis/ssg";
       inputs.nixpkgs.follows = "nixpkgs";
