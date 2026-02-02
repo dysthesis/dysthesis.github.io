@@ -14,54 +14,53 @@ fi
 
 shopt -s nullglob
 for img in "$@"; do
-  if [[ -d "$img" ]]; then
+  if [[ -d $img ]]; then
     # Recurse into directory
     "$0" "$img"/*
     continue
   fi
 
   case "${img,,}" in
-    *.jpg|*.jpeg|*.png)
-      base="${img%.*}"
-      tmp="$(mktemp)"
-      # Primary: downscale to <=1400px wide, strip metadata, progressive JPEG,
-      # cap quality/size to keep LCP image fast.
-      convert "$img" \
-        -resize '1400x1400>' \
-        -strip \
-        -interlace Plane \
-        -sampling-factor 4:2:0 \
-        -quality 82 \
-        -define jpeg:extent=900kb \
-        "$tmp"
-      mv "$tmp" "$img"
+  *.jpg | *.jpeg | *.png)
+    base="${img%.*}"
+    tmp="$(mktemp)"
+    # Primary: downscale to <=1400px wide, strip metadata, progressive JPEG,
+    # cap quality/size to keep LCP image fast.
+    convert "$img" \
+      -resize '1400x1400>' \
+      -strip \
+      -interlace Plane \
+      -sampling-factor 4:2:0 \
+      -quality 82 \
+      -define jpeg:extent=900kb \
+      "$tmp"
+    mv "$tmp" "$img"
 
-      # High-res WebP (<=1400px).
-      convert "$img" \
-        -resize '1400x1400>' \
-        -strip \
-        -quality 82 \
-        "${base}.webp"
+    # High-res WebP (<=1400px).
+    convert "$img" \
+      -resize '1400x1400>' \
+      -strip \
+      -quality 82 \
+      "${base}.webp"
 
-      # 800px responsive pair (WebP + JPEG fallback).
-      convert "$img" \
-        -resize '800x800>' \
-        -strip \
-        -interlace Plane \
-        -sampling-factor 4:2:0 \
-        -quality 82 \
-        -define jpeg:extent=500kb \
-        "${base}-800.jpg"
+    # 800px responsive pair (WebP + JPEG fallback).
+    convert "$img" \
+      -resize '800x800>' \
+      -strip \
+      -interlace Plane \
+      -sampling-factor 4:2:0 \
+      -quality 82 \
+      -define jpeg:extent=500kb \
+      "${base}-800.jpg"
 
-      convert "$img" \
-        -resize '800x800>' \
-        -strip \
-        -quality 80 \
-        "${base}-800.webp"
+    convert "$img" \
+      -resize '800x800>' \
+      -strip \
+      -quality 80 \
+      "${base}-800.webp"
 
-      echo "optimized $img -> ${base}.webp (+ 800px variants)"
-      ;;
-    *)
-      ;;
+    echo "optimized $img -> ${base}.webp (+ 800px variants)"
+    ;;
+  *) ;;
   esac
 done
