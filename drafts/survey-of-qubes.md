@@ -76,6 +76,8 @@ tags:
   - [Signal messenger]
   - [Video playback performance]
   - [redshift] for blue-light reduction
+  - offline dvm
+  - qubes policies
 - More dumps
   - [Browser stuff]
   - [Qube types]
